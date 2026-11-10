@@ -5,9 +5,9 @@
 | Proyecto | QualityPrint — Sistema de Gestión de Calidad (SGC) |
 | Código documental | DOC-QP-009 |
 | Apartado | 2.7. Gestión documental |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha de elaboración | 10 de noviembre de 2026 |
-| Estado | **Borrador para revisión y aprobación** |
+| Estado | **Aprobado para el proyecto académico** |
 | Empresa | QualityPrint (**empresa ficticia**) |
 | Elaboración propuesta | Responsable de calidad |
 | Revisión propuesta | Gerencia general |
@@ -261,23 +261,23 @@ La relación completa y sus enlaces se encuentran en **LM-QP-001**. Los archivos
 |---|---|
 | Documento | DOC-QP-009 |
 | Versión anterior | 0.1 — borrador |
-| Versión propuesta | 1.0 — aprobada |
+| Versión propuesta | 1.0 — aprobada (ejemplo histórico) |
 | Motivo | Validación de la política de codificación y control de cambios |
 | Responsable de revisión | Usuario del proyecto |
 | Evidencia de publicación | Commit de GitHub correspondiente |
-| Condición | **No se ejecuta hasta recibir aprobación** |
+| Condición | **Aprobado el 10/11/2026** para el caso académico |
 
 ---
 
 ## 4. Lista de verificación del apartado 2.7
 
-- [ ] **2.7.1.** Definir el sistema de codificación documental.
-- [ ] **2.7.2.** Definir versiones y control de cambios.
-- [ ] **2.7.3.** Definir responsables de elaboración y aprobación.
-- [ ] **2.7.4.** Crear el procedimiento de gestión documental.
-- [ ] **2.7.5.** Crear el listado maestro de documentos.
+- [x] **2.7.1.** Definir el sistema de codificación documental.
+- [x] **2.7.2.** Definir versiones y control de cambios.
+- [x] **2.7.3.** Definir responsables de elaboración y aprobación.
+- [x] **2.7.4.** Crear el procedimiento de gestión documental.
+- [x] **2.7.5.** Crear el listado maestro de documentos.
 
-**Estado:** los cinco subpuntos están redactados y el archivo LM-QP-001 está creado, pero ambos documentos siguen pendientes de tu aprobación. El roadmap conservará `[ ]` hasta validar esta sección.
+**Estado:** los cinco subpuntos y el listado maestro LM-QP-001 fueron aprobados para el proyecto académico; esto no acredita ejecución de actividades empresariales.
 
 ### Criterios de aceptación
 - Los códigos son únicos y compatibles con los documentos ya publicados.
@@ -292,5 +292,6 @@ La relación completa y sus enlaces se encuentran en **LM-QP-001**. Los archivos
 | Versión | Fecha | Modificación | Estado |
 |---|---|---|---|
 | 0.1 | 10/11/2026 | Desarrollo de 2.7.1–2.7.5, procedimiento y enlace al listado maestro | Borrador |
+| 1.0 | 10/11/2026 | Aprobación del apartado 2.7 y del listado maestro | Aprobado |
 
-**Siguiente apartado tras aprobación:** **2.8 — Procedimientos y formatos del SGC**, cuyos entregables se crearán individualmente y tendrán su propio código documental.
+**Siguiente apartado:** **2.8 — Procedimientos y formatos del SGC**, iniciado con [PR-QP-001 — Recepción de pedidos](procedimientos/PR-QP-001_recepcion_de_pedidos.md) para revisión.
