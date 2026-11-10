@@ -6,9 +6,9 @@
 | Código documental | DOC-QP-005 |
 | Etapa | 2. Documentación de la empresa y del SGC |
 | Apartado | 2.3. Contexto de la organización |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 10 de noviembre de 2026 |
-| Estado | **Borrador para revisión y aprobación** |
+| Estado | **Aprobado para el caso de estudio** |
 | Responsable propuesto | Gerencia general y apoyo de Control de calidad |
 | Organización | QualityPrint — empresa ficticia |
 
@@ -181,7 +181,7 @@ No se debe presentar el software como una implementación automática de todo el
 - **Apoyo:** Control de calidad.
 - **Medio de publicación:** `docs/02_sgc/DOC-QP-005_contexto_de_la_organizacion.md`.
 - **Revisión:** anual en el escenario ficticio y siempre que cambien de manera relevante productos, métodos, capacidad o servicios contratados.
-- **Estado:** propuesta pendiente de aprobación del documento.
+- **Estado:** alcance aprobado como propuesta de la empresa ficticia; no constituye certificación ni verificación real.
 
 ---
 
@@ -199,11 +199,11 @@ No se debe presentar el software como una implementación automática de todo el
 
 ## 4. Lista de verificación del apartado 2.3
 
-- [ ] **2.3.1.** Identificar factores internos.
-- [ ] **2.3.2.** Identificar factores externos.
-- [ ] **2.3.3.** Identificar partes interesadas.
-- [ ] **2.3.4.** Identificar necesidades y expectativas.
-- [ ] **2.3.5.** Definir el alcance del SGC.
+- [x] **2.3.1.** Identificar factores internos.
+- [x] **2.3.2.** Identificar factores externos.
+- [x] **2.3.3.** Identificar partes interesadas.
+- [x] **2.3.4.** Identificar necesidades y expectativas.
+- [x] **2.3.5.** Definir el alcance del SGC.
 
 **Criterios de aprobación:** que la documentación sea consistente con la empresa de cinco trabajadores y una impresora DTF, que se distingan los supuestos de hechos reales, que el alcance cubra los procesos definidos sin confundirlos con módulos del software y que las matrices sean una base utilizable para las próximas etapas.
 
@@ -211,6 +211,7 @@ No se debe presentar el software como una implementación automática de todo el
 
 | Versión | Fecha | Descripción | Estado |
 |---|---|---|---|
-| 0.1 | 10/11/2026 | Elaboración de los subpuntos 2.3.1–2.3.5 | Borrador pendiente de revisión |
+| 0.1 | 10/11/2026 | Elaboración de los subpuntos 2.3.1–2.3.5 | Borrador |
+| 1.0 | 10/11/2026 | Aprobación de los cinco subpuntos | Aprobado |
 
-**Siguiente apartado tras aprobar DOC-QP-005:** **2.4 — Procesos de la empresa**.
+**Siguiente apartado:** [DOC-QP-006 — Procesos y mapa de procesos](DOC-QP-006_procesos_y_mapa_de_procesos.md), en revisión.
