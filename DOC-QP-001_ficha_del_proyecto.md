@@ -111,3 +111,39 @@ QualityPrint, su personal, pedidos y métricas son ficticios. El software será 
 | Versión | Fecha | Descripción | Estado |
 |---|---|---|---|
 | 0.1 | 2026-11-10 | Primera propuesta de ficha del proyecto | Pendiente de revisión |
+1.1.5. Identificar el problema que resolverá el software
+Planteamiento del problema
+
+QualityPrint es una empresa ficticia dedicada al estampado textil mediante tecnología DTF. Para nuestro caso de estudio, asumimos que los pedidos, registros de producción, inspecciones y defectos se administran manualmente o mediante archivos independientes.
+
+Esto puede ocasionar dificultades como:
+- Pérdida o duplicación de información.
+- Falta de seguimiento a los defectos detectados.
+- Dificultad para identificar qué pedido presentó problemas.
+- Ausencia de indicadores centralizados de calidad.
+- Demoras para consultar los resultados de las inspecciones.
+Problema central: QualityPrint no cuenta con un sistema informático centralizado que permita registrar, controlar y consultar la información relacionada con la calidad de sus procesos de estampado DTF.
+1.1.6. Definir la solución propuesta
+Se propone desarrollar QualityPrint-SGC, una aplicación web que permita digitalizar y centralizar los registros de calidad de la empresa ficticia.
+
+El software permitirá:
+1. Registrar y administrar pedidos de clientes.
+2. Llevar el registro de los lotes de producción DTF.
+3. Realizar inspecciones de calidad.
+4. Registrar defectos y no conformidades.
+5. Hacer seguimiento a las acciones correctivas.
+6. Consultar indicadores mediante un dashboard.
+La solución se desarrollará inicialmente utilizando Python, Flask, HTML, CSS, JavaScript y SQLite.
+1.1.7. Establecer los objetivos del proyecto
+Objetivo general
+
+Diseñar, desarrollar y evaluar una aplicación web para apoyar la gestión y el seguimiento de la calidad de los procesos de estampado textil DTF de la empresa ficticia QualityPrint, mediante el registro centralizado de pedidos, producción, inspecciones y no conformidades.
+
+Objetivos específicos
+1. Analizar y documentar los principales procesos productivos de QualityPrint.
+2. Identificar los requisitos funcionales y no funcionales del sistema.
+3. Diseñar la arquitectura, la base de datos y las interfaces de usuario.
+4. Desarrollar los módulos de gestión de pedidos, producción DTF, inspecciones y no conformidades.
+5. Implementar indicadores que permitan consultar resultados de calidad.
+6. Realizar pruebas para verificar el funcionamiento del software.
+7. Documentar y publicar el proyecto en GitHub para presentarlo en un portafolio profesional.
