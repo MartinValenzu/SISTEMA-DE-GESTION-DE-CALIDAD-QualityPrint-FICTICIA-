@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.1  
+**Versión:** 1.2  
 **Fecha:** 10/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -62,16 +62,18 @@
 
 ## 2.1. Información general de la empresa
 
-**Documento redactado y publicado para revisión:** [DOC-QP-003](docs/02_sgc/DOC-QP-003_informacion_general_empresa.md). Las casillas permanecen pendientes de validación.
-- [ ] 2.1.1. Nombre y descripción de QualityPrint.
-- [ ] 2.1.2. Actividad económica.
-- [ ] 2.1.3. Productos y servicios.
-- [ ] 2.1.4. Características de los clientes.
-- [ ] 2.1.5. Estructura organizacional.
-- [ ] 2.1.6. Organigrama.
-- [ ] 2.1.7. Funciones y responsabilidades de los cargos.
+**Documento aprobado:** [DOC-QP-003](docs/02_sgc/DOC-QP-003_informacion_general_empresa.md).
+- [x] 2.1.1. Nombre y descripción de QualityPrint.
+- [x] 2.1.2. Actividad económica.
+- [x] 2.1.3. Productos y servicios.
+- [x] 2.1.4. Características de los clientes.
+- [x] 2.1.5. Estructura organizacional.
+- [x] 2.1.6. Organigrama.
+- [x] 2.1.7. Funciones y responsabilidades de los cargos.
 
 ## 2.2. Direccionamiento estratégico
+
+**Documento en revisión:** [DOC-QP-004](docs/02_sgc/DOC-QP-004_direccionamiento_estrategico.md). Los subpuntos permanecen pendientes hasta su aprobación.
 - [ ] 2.2.1. Misión.
 - [ ] 2.2.2. Visión.
 - [ ] 2.2.3. Valores organizacionales.
