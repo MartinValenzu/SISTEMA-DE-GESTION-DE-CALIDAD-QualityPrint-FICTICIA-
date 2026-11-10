@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.2  
+**Versión:** 1.3  
 **Fecha:** 10/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -73,16 +73,18 @@
 
 ## 2.2. Direccionamiento estratégico
 
-**Documento en revisión:** [DOC-QP-004](docs/02_sgc/DOC-QP-004_direccionamiento_estrategico.md). Los subpuntos permanecen pendientes hasta su aprobación.
-- [ ] 2.2.1. Misión.
-- [ ] 2.2.2. Visión.
-- [ ] 2.2.3. Valores organizacionales.
-- [ ] 2.2.4. Política de calidad.
-- [ ] 2.2.5. Objetivo general de calidad.
-- [ ] 2.2.6. Objetivos específicos de calidad.
-- [ ] 2.2.7. Indicadores iniciales de calidad.
+**Documento aprobado:** [DOC-QP-004](docs/02_sgc/DOC-QP-004_direccionamiento_estrategico.md).
+- [x] 2.2.1. Misión.
+- [x] 2.2.2. Visión.
+- [x] 2.2.3. Valores organizacionales.
+- [x] 2.2.4. Política de calidad.
+- [x] 2.2.5. Objetivo general de calidad.
+- [x] 2.2.6. Objetivos específicos de calidad.
+- [x] 2.2.7. Indicadores iniciales de calidad.
 
 ## 2.3. Contexto de la organización
+
+**Documento publicado para revisión:** [DOC-QP-005](docs/02_sgc/DOC-QP-005_contexto_de_la_organizacion.md). Los subpuntos 2.3.1 a 2.3.5 continúan pendientes de aprobación.
 - [ ] 2.3.1. Identificar factores internos.
 - [ ] 2.3.2. Identificar factores externos.
 - [ ] 2.3.3. Identificar partes interesadas.
