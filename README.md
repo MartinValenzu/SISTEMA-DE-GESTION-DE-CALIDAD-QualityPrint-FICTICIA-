@@ -5,7 +5,7 @@
 ## ¿Qué es QualityPrint?
 QualityPrint simula una pequeña empresa de personalización textil que cuenta con **una impresora DTF** y **hasta cinco trabajadores**. El proyecto combina el diseño documental de un Sistema de Gestión de Calidad con el desarrollo progresivo de una **aplicación web para gestionar pedidos, registros de producción, inspecciones y no conformidades**.
 
-> **Estado actual:** Etapa 1 completada; Etapa 2.1 en documentación (DOC-QP-003 en revisión). El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
+> **Estado actual:** Etapa 1 completada; Etapa 2.1 aprobada; Etapa 2.2 en revisión (DOC-QP-004). El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
 
 ## Objetivo
 Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros y facilitar la trazabilidad de calidad de pedidos de estampado DTF, con un panel básico de indicadores.
@@ -15,7 +15,8 @@ Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros 
 |---|---|
 | [DOC-QP-001 — Ficha del proyecto](docs/01_proyecto/DOC-QP-001_ficha_del_proyecto.md) | Problema, solución, objetivos, alcance y restricciones |
 | [DOC-QP-002 — Organización inicial](docs/01_proyecto/DOC-QP-002_organizacion_inicial_del_proyecto.md) | Herramientas, tecnologías, etapas y entregables |
-| [DOC-QP-003 — Información general de la empresa](docs/02_sgc/DOC-QP-003_informacion_general_empresa.md) | Caracterización, clientes, actividad, organigrama y cargos (borrador) |
+| [DOC-QP-003 — Información general de la empresa](docs/02_sgc/DOC-QP-003_informacion_general_empresa.md) | Caracterización, clientes, actividad, organigrama y cargos (aprobado) |
+| [DOC-QP-004 — Direccionamiento estratégico](docs/02_sgc/DOC-QP-004_direccionamiento_estrategico.md) | Misión, visión, política, objetivos e indicadores (en revisión) |
 | [ROADMAP_QUALITYPRINT.md](ROADMAP_QUALITYPRINT.md) | Hoja de ruta detallada con casillas de avance |
 | [ETAPA_1_CHECKLIST.md](ETAPA_1_CHECKLIST.md) | Evidencias de la etapa inicial |
 | [docs/README.md](docs/README.md) | Índice de la documentación |
@@ -48,6 +49,8 @@ docs/
     DOC-QP-001_ficha_del_proyecto.md
     DOC-QP-002_organizacion_inicial_del_proyecto.md
   02_sgc/
+    DOC-QP-003_informacion_general_empresa.md
+    DOC-QP-004_direccionamiento_estrategico.md
   03_requisitos/
   04_diseno/
 ```
