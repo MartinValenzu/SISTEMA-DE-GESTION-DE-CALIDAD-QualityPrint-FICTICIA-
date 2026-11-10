@@ -6,9 +6,9 @@
 | Código documental | DOC-QP-004 |
 | Etapa | 2. Documentación de la empresa y del SGC |
 | Apartado | 2.2. Direccionamiento estratégico |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha de elaboración | 10 de noviembre de 2026 |
-| Estado | **Borrador para revisión y aprobación** |
+| Estado | **Aprobado para el proyecto académico** |
 | Organización | QualityPrint — empresa ficticia |
 | Responsable propuesto | Gerencia general |
 | Alcance de este documento | Subpuntos 2.2.1 a 2.2.7 |
@@ -204,15 +204,15 @@ Al desarrollar el dashboard, la aplicación deberá calcular los indicadores des
 | Política: mejora | Tratamiento de defectos y causas | No conformidades / acciones |
 | Objetivos OC-01 a OC-05 | Seguimiento periódico de resultados | Dashboard e informes |
 
-## Lista de verificación para aprobar DOC-QP-004
+## Lista de verificación — DOC-QP-004 aprobado
 
-- [ ] 2.2.1. Misión.
-- [ ] 2.2.2. Visión.
-- [ ] 2.2.3. Valores organizacionales.
-- [ ] 2.2.4. Política de calidad.
-- [ ] 2.2.5. Objetivo general de calidad.
-- [ ] 2.2.6. Objetivos específicos de calidad.
-- [ ] 2.2.7. Indicadores iniciales de calidad.
+- [x] 2.2.1. Misión.
+- [x] 2.2.2. Visión.
+- [x] 2.2.3. Valores organizacionales.
+- [x] 2.2.4. Política de calidad.
+- [x] 2.2.5. Objetivo general de calidad.
+- [x] 2.2.6. Objetivos específicos de calidad.
+- [x] 2.2.7. Indicadores iniciales de calidad.
 
 **Criterio de cierre:** revisar la coherencia del texto con la empresa de cinco trabajadores y una impresora DTF, confirmar que las metas se entienden como provisionales, y verificar que las fórmulas y responsabilidades puedan emplearse luego en el diseño del software.
 
@@ -220,6 +220,7 @@ Al desarrollar el dashboard, la aplicación deberá calcular los indicadores des
 
 | Versión | Fecha | Cambio | Estado |
 |---|---|---|---|
-| 0.1 | 10/11/2026 | Primera redacción de 2.2.1 a 2.2.7 | Pendiente de revisión |
+| 0.1 | 10/11/2026 | Primera redacción de 2.2.1 a 2.2.7 | Borrador |
+| 1.0 | 10/11/2026 | Aprobación de los siete subpuntos del apartado 2.2 | Aprobado |
 
-**Siguiente apartado al aprobar DOC-QP-004:** **2.3 — Contexto de la organización** (factores internos/externos, partes interesadas, necesidades y alcance del SGC).
+**Siguiente apartado:** [DOC-QP-005 — Contexto de la organización](DOC-QP-005_contexto_de_la_organizacion.md) (borrador pendiente de revisión).
