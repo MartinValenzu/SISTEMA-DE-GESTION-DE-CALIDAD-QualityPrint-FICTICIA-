@@ -6,9 +6,9 @@
 | Código documental | DOC-QP-008 |
 | Etapa | 2. Documentación de la empresa y del SGC |
 | Apartado | 2.6. Gestión de riesgos y oportunidades |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 10 de noviembre de 2026 |
-| Estado | **Borrador para revisión y aprobación** |
+| Estado | **Aprobado para el caso de estudio** |
 | Organización | QualityPrint — empresa ficticia |
 | Responsable del documento | Gerencia general, con apoyo de Control de calidad |
 
@@ -299,14 +299,14 @@ Inventarios, mantenimiento y matriz de riesgos dentro del software podrán evalu
 
 ---
 
-## 6. Lista de verificación antes de aprobar
+## 6. Lista de verificación — aprobada
 
-- [ ] **2.6.1.** Identificar riesgos de los procesos.
-- [ ] **2.6.2.** Identificar posibles causas.
-- [ ] **2.6.3.** Evaluar probabilidad e impacto.
-- [ ] **2.6.4.** Definir controles preventivos.
-- [ ] **2.6.5.** Asignar responsables.
-- [ ] **2.6.6.** Elaborar la matriz de riesgos.
+- [x] **2.6.1.** Identificar riesgos de los procesos.
+- [x] **2.6.2.** Identificar posibles causas.
+- [x] **2.6.3.** Evaluar probabilidad e impacto.
+- [x] **2.6.4.** Definir controles preventivos.
+- [x] **2.6.5.** Asignar responsables.
+- [x] **2.6.6.** Elaborar la matriz de riesgos.
 
 ### Criterios de aprobación
 - La matriz está alineada con los procesos de DOC-QP-006 y el flujo de DOC-QP-007.
@@ -322,5 +322,6 @@ Inventarios, mantenimiento y matriz de riesgos dentro del software podrán evalu
 | Versión | Fecha | Modificación | Estado |
 |---|---|---|---|
 | 0.1 | 10/11/2026 | Identificación, evaluación ilustrativa y matriz inicial de riesgos/oportunidades | Borrador |
+| 1.0 | 10/11/2026 | Aprobación de los seis subpuntos del apartado 2.6 | Aprobado |
 
-**Siguiente apartado después de aprobación:** **2.7 — Gestión documental**, a documentar como **DOC-QP-009**.
+**Siguiente documento:** [DOC-QP-009 — Gestión documental](DOC-QP-009_gestion_documental.md) y [LM-QP-001 — Listado maestro](LM-QP-001_listado_maestro_de_documentos.md), en revisión.
