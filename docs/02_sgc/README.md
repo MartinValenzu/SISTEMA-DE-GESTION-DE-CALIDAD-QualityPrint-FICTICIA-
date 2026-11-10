@@ -12,11 +12,13 @@
 
 - [DOC-QP-006 — Procesos y mapa de procesos](DOC-QP-006_procesos_y_mapa_de_procesos.md): apartados 2.4.1–2.4.6; **aprobado**.
 
-- [DOC-QP-007 — Descripción del proceso de producción DTF](DOC-QP-007_proceso_de_produccion_DTF.md): apartados 2.5.1–2.5.10; **borrador pendiente de revisión y aprobación**.
+- [DOC-QP-007 — Descripción del proceso de producción DTF](DOC-QP-007_proceso_de_produccion_DTF.md): apartados 2.5.1–2.5.10; **aprobado**.
+
+- [DOC-QP-008 — Gestión de riesgos y oportunidades](DOC-QP-008_gestion_de_riesgos_y_oportunidades.md): apartados 2.6.1–2.6.6; **borrador pendiente de revisión y aprobación**.
 
 ## Próximas actividades
 
-- **2.5. Proceso de producción DTF:** publicado para revisión.
-- **2.6–2.8:** riesgos, control documental y procedimientos.
+- **2.6. Gestión de riesgos y oportunidades:** publicado para revisión.
+- **2.7–2.8:** control documental, procedimientos y formatos.
 
 Consulta el [ROADMAP](../../ROADMAP_QUALITYPRINT.md) antes de marcar una casilla como terminada.
