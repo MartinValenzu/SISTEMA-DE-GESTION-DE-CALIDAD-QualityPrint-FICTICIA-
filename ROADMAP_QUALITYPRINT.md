@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.6  
+**Versión:** 1.7  
 **Fecha:** 10/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -117,15 +117,17 @@
 
 ## 2.6. Gestión de riesgos y oportunidades
 
-**Documento publicado para revisión:** [DOC-QP-008](docs/02_sgc/DOC-QP-008_gestion_de_riesgos_y_oportunidades.md). Los seis subpuntos permanecen pendientes hasta la aprobación.
-- [ ] 2.6.1. Identificar riesgos de los procesos.
-- [ ] 2.6.2. Identificar posibles causas.
-- [ ] 2.6.3. Evaluar probabilidad e impacto.
-- [ ] 2.6.4. Definir controles preventivos.
-- [ ] 2.6.5. Asignar responsables.
-- [ ] 2.6.6. Elaborar la matriz de riesgos.
+**Documento aprobado:** [DOC-QP-008](docs/02_sgc/DOC-QP-008_gestion_de_riesgos_y_oportunidades.md).
+- [x] 2.6.1. Identificar riesgos de los procesos.
+- [x] 2.6.2. Identificar posibles causas.
+- [x] 2.6.3. Evaluar probabilidad e impacto.
+- [x] 2.6.4. Definir controles preventivos.
+- [x] 2.6.5. Asignar responsables.
+- [x] 2.6.6. Elaborar la matriz de riesgos.
 
 ## 2.7. Gestión documental
+
+**Documentos publicados para revisión:** [DOC-QP-009 — Gestión documental](docs/02_sgc/DOC-QP-009_gestion_documental.md) y [LM-QP-001 — Listado maestro](docs/02_sgc/LM-QP-001_listado_maestro_de_documentos.md). Las cinco actividades continúan pendientes hasta aprobación.
 - [ ] 2.7.1. Definir el sistema de codificación documental.
 - [ ] 2.7.2. Definir versiones y control de cambios.
 - [ ] 2.7.3. Definir responsables de elaboración y aprobación.
