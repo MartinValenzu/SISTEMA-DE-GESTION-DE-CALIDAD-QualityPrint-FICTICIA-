@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.7  
+**Versión:** 1.8  
 **Fecha:** 10/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -127,14 +127,16 @@
 
 ## 2.7. Gestión documental
 
-**Documentos publicados para revisión:** [DOC-QP-009 — Gestión documental](docs/02_sgc/DOC-QP-009_gestion_documental.md) y [LM-QP-001 — Listado maestro](docs/02_sgc/LM-QP-001_listado_maestro_de_documentos.md). Las cinco actividades continúan pendientes hasta aprobación.
-- [ ] 2.7.1. Definir el sistema de codificación documental.
-- [ ] 2.7.2. Definir versiones y control de cambios.
-- [ ] 2.7.3. Definir responsables de elaboración y aprobación.
-- [ ] 2.7.4. Crear el procedimiento de gestión documental.
-- [ ] 2.7.5. Crear el listado maestro de documentos.
+**Documentos aprobados:** [DOC-QP-009 — Gestión documental](docs/02_sgc/DOC-QP-009_gestion_documental.md) y [LM-QP-001 — Listado maestro](docs/02_sgc/LM-QP-001_listado_maestro_de_documentos.md).
+- [x] 2.7.1. Definir el sistema de codificación documental.
+- [x] 2.7.2. Definir versiones y control de cambios.
+- [x] 2.7.3. Definir responsables de elaboración y aprobación.
+- [x] 2.7.4. Crear el procedimiento de gestión documental.
+- [x] 2.7.5. Crear el listado maestro de documentos.
 
 ## 2.8. Procedimientos y formatos del SGC
+
+**Primer entregable en revisión:** [PR-QP-001 — Procedimiento de recepción de pedidos](docs/02_sgc/procedimientos/PR-QP-001_recepcion_de_pedidos.md). La casilla 2.8.1 permanecerá pendiente hasta su aprobación.
 - [ ] 2.8.1. Procedimiento de recepción de pedidos.
 - [ ] 2.8.2. Procedimiento de producción DTF.
 - [ ] 2.8.3. Procedimiento de inspección de calidad.
