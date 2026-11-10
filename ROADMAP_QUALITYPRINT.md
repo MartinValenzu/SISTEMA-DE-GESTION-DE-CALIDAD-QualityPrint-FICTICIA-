@@ -29,9 +29,9 @@
 - [LISTO ] 1.1.2. Definir el tipo de sistema.
 - [LISTO ] 1.1.3. Describir la actividad de la empresa ficticia.
 - [LISTO ] 1.1.4. Definir el tamaño y características de la empresa.
-- [ ] 1.1.5. Identificar el problema que resolverá el software.
-- [ ] 1.1.6. Definir la solución propuesta.
-- [ ] 1.1.7. Establecer los objetivos generales del proyecto.
+- [LISTO ] 1.1.5. Identificar el problema que resolverá el software.
+- [LISTO ] 1.1.6. Definir la solución propuesta.
+- [LISTO ] 1.1.7. Establecer los objetivos generales del proyecto.
 
 ## 1.2. Organización inicial
 - [ ] 1.2.1. Definir las herramientas que utilizaremos.
