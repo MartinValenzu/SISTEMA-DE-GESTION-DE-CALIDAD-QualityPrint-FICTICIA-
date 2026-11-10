@@ -6,9 +6,9 @@
 | Código | DOC-QP-002 |
 | Etapa | 1. Inicio y organización del proyecto |
 | Apartado de la ruta | 1.2. Organización inicial |
-| Versión | 1.1 |
+| Versión | 1.2 |
 | Fecha de elaboración | 10 de noviembre de 2026 |
-| Estado | Elaborado; pendiente de revisión y aprobación |
+| Estado | Aprobado para el proyecto académico |
 | Naturaleza | Proyecto académico y de portafolio profesional |
 | Empresa objeto de estudio | QualityPrint (empresa ficticia) |
 
@@ -174,12 +174,12 @@ Estas casillas **no pertenecen al cierre de la etapa 1.2**: sirven como criterio
 
 ### 1.2.4.3. Criterios para cerrar este documento
 
-- [ ] **1.2.1:** se revisó y aprobó la lista de herramientas.
-- [ ] **1.2.2:** se revisó y aprobó la selección tecnológica y el MVP.
-- [ ] **1.2.3:** se revisaron y aprobaron las nueve etapas.
-- [ ] **1.2.4:** se revisaron y aprobaron los entregables y sus criterios.
+- [x] **1.2.1:** se revisó y aprobó la lista de herramientas.
+- [x] **1.2.2:** se revisó y aprobó la selección tecnológica y el MVP.
+- [x] **1.2.3:** se revisaron y aprobaron las nueve etapas.
+- [x] **1.2.4:** se revisaron y aprobaron los entregables y sus criterios.
 
-**Estado actual:** los cuatro apartados están elaborados y listos para revisión. No se consideran aprobados ni publicados en GitHub hasta comprobarlo.
+**Estado actual:** los cuatro apartados se consideran aprobados para el proyecto académico y están publicados en el repositorio.
 
 ---
 
@@ -204,6 +204,7 @@ Se guardará **un documento por tema principal**. Así, DOC-QP-001 contiene la d
 | Versión | Fecha | Cambio | Estado |
 |---|---|---|---|
 | 1.0 | 10/11/2026 | Borrador inicial de herramientas y planificación | Sustituido |
-| 1.1 | 10/11/2026 | Desarrollo separado y numerado de 1.2.1 a 1.2.4, con entregables y criterios | En revisión |
+| 1.1 | 10/11/2026 | Desarrollo separado y numerado de 1.2.1 a 1.2.4, con entregables y criterios | Revisado |
+| 1.2 | 10/11/2026 | Aprobación de la sección 1.2 y verificación en GitHub | Aprobado |
 
-**Siguiente actividad al aprobar DOC-QP-002:** **1.3 — Preparación de GitHub**: crear el repositorio, configurar visibilidad y publicar documentos.
+**Actividad posterior:** **1.3 — Preparación de GitHub**: repositorio creado, público y documentación inicial organizada y publicada. Próximo paso: **etapa 2**, documentación de la empresa y del SGC.

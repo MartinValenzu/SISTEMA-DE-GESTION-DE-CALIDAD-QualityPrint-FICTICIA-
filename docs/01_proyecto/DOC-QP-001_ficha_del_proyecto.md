@@ -4,9 +4,9 @@
 |---|---|
 | Nombre del proyecto | QualityPrint — Sistema de Gestión de Calidad |
 | Código | DOC-QP-001 |
-| Versión del documento | 1.1 |
+| Versión del documento | 1.2 |
 | Fecha de actualización | 10 de noviembre de 2026 |
-| Estado | **En revisión: puntos 1.1.5, 1.1.6 y 1.1.7 pendientes de validación** |
+| Estado | **Aprobado para el proyecto académico** |
 | Naturaleza | Proyecto académico y de portafolio |
 | Organización de referencia | QualityPrint (empresa ficticia) |
 | Sector | Estampados textiles mediante tecnología DTF (Direct to Film) |
@@ -142,4 +142,5 @@ Las tecnologías se confirmarán durante la fase de diseño técnico.
 |---|---|---|---|
 | 0.1 | 2026-11-10 | Primera propuesta | Borrador |
 | 1.0 | 2026-11-10 | Revisión inicial | Reabierta para corrección |
-| 1.1 | 2026-11-10 | Se explicitan y amplían 1.1.5, 1.1.6 y 1.1.7 | Pendiente de aprobación |
+| 1.1 | 2026-11-10 | Se explicitan y amplían 1.1.5, 1.1.6 y 1.1.7 | Revisado |
+| 1.2 | 2026-11-10 | Aprobación del contenido de la sección 1.1 | Aprobado |
