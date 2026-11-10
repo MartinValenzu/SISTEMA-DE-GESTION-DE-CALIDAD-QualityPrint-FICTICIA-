@@ -6,9 +6,9 @@
 | Código documental | DOC-QP-003 |
 | Etapa | 2. Documentación de la empresa y del SGC |
 | Apartado | 2.1. Información general de la empresa |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha de elaboración | 10 de noviembre de 2026 |
-| Estado | **Borrador — pendiente de revisión y aprobación** |
+| Estado | **Aprobado para el caso de estudio** |
 | Organización | QualityPrint, **empresa ficticia** |
 | Tipo de documento | Caracterización organizacional |
 
@@ -251,15 +251,15 @@ La autenticación, el modelo de permisos y las pantallas se definirán formalmen
 
 ## Validación del documento
 
-Los siete subpuntos están **redactados**, pero seguirán pendientes en la hoja de ruta hasta que se aprueben:
+Los siete subpuntos fueron **revisados y aprobados** para el caso de estudio:
 
-- [ ] 2.1.1. Nombre y descripción de QualityPrint.
-- [ ] 2.1.2. Actividad económica.
-- [ ] 2.1.3. Productos y servicios.
-- [ ] 2.1.4. Características de los clientes.
-- [ ] 2.1.5. Estructura organizacional.
-- [ ] 2.1.6. Organigrama.
-- [ ] 2.1.7. Funciones y responsabilidades.
+- [x] 2.1.1. Nombre y descripción de QualityPrint.
+- [x] 2.1.2. Actividad económica.
+- [x] 2.1.3. Productos y servicios.
+- [x] 2.1.4. Características de los clientes.
+- [x] 2.1.5. Estructura organizacional.
+- [x] 2.1.6. Organigrama.
+- [x] 2.1.7. Funciones y responsabilidades.
 
 ### Criterios para aprobarlo
 - La empresa mantiene un tamaño coherente con el proyecto: cinco trabajadores y una impresora DTF.
@@ -273,5 +273,6 @@ Los siete subpuntos están **redactados**, pero seguirán pendientes en la hoja 
 | Versión | Fecha | Descripción | Estado |
 |---|---|---|---|
 | 0.1 | 10/11/2026 | Primera caracterización: subpuntos 2.1.1–2.1.7 y organigrama | Borrador |
+| 1.0 | 10/11/2026 | Aprobación de 2.1.1–2.1.7 | Aprobado |
 
-**Siguiente apartado del roadmap, cuando se apruebe este documento:** **2.2. Direccionamiento estratégico**.
+**Siguiente apartado del roadmap:** [DOC-QP-004 — Direccionamiento estratégico](DOC-QP-004_direccionamiento_estrategico.md) (borrador para revisión).
