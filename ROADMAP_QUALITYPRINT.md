@@ -85,8 +85,6 @@
 ## 2.3. Contexto de la organización
 
 **Documento publicado para revisión:** [DOC-QP-005](docs/02_sgc/DOC-QP-005_contexto_de_la_organizacion.md). Los subpuntos 2.3.1 a 2.3.5 continúan pendientes de aprobación.
-
-**Documento publicado para revisión:** [DOC-QP-005](docs/02_sgc/DOC-QP-005_contexto_de_la_organizacion.md). Los subpuntos 2.3.1 a 2.3.5 continúan pendientes de aprobación.
 - [ ] 2.3.1. Identificar factores internos.
 - [ ] 2.3.2. Identificar factores externos.
 - [ ] 2.3.3. Identificar partes interesadas.
