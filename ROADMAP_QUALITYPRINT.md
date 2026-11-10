@@ -34,10 +34,10 @@
 - [LISTO ] 1.1.7. Establecer los objetivos generales del proyecto.
 
 ## 1.2. Organización inicial
-- [ ] 1.2.1. Definir las herramientas que utilizaremos.
-- [ ] 1.2.2. Definir las tecnologías de desarrollo.
-- [ ] 1.2.3. Definir las etapas del proyecto.
-- [ ] 1.2.4. Establecer los entregables de cada etapa.
+- [LISTO ] 1.2.1. Definir las herramientas que utilizaremos.
+- [LISTO ] 1.2.2. Definir las tecnologías de desarrollo.
+- [LISTO ] 1.2.3. Definir las etapas del proyecto.
+- [LISTO ] 1.2.4. Establecer los entregables de cada etapa.
 
 ## 1.3. Preparación de GitHub
 - [ ] 1.3.1. Crear el repositorio QualityPrint-SGC.
