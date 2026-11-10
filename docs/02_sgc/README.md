@@ -16,13 +16,15 @@
 
 - [DOC-QP-008 — Gestión de riesgos y oportunidades](DOC-QP-008_gestion_de_riesgos_y_oportunidades.md): apartados 2.6.1–2.6.6; **aprobado**.
 
-- [DOC-QP-009 — Gestión documental](DOC-QP-009_gestion_documental.md): apartados 2.7.1–2.7.5; **borrador pendiente de aprobación**.
+- [DOC-QP-009 — Gestión documental](DOC-QP-009_gestion_documental.md): apartados 2.7.1–2.7.5; **aprobado**.
 
-- [LM-QP-001 — Listado maestro de documentos](LM-QP-001_listado_maestro_de_documentos.md): índice controlado de documentos; **borrador pendiente de aprobación**.
+- [LM-QP-001 — Listado maestro de documentos](LM-QP-001_listado_maestro_de_documentos.md): índice controlado de documentos; **aprobado**.
+
+- [PR-QP-001 — Procedimiento de recepción de pedidos](procedimientos/PR-QP-001_recepcion_de_pedidos.md): actividad 2.8.1; **borrador pendiente de revisión y aprobación**.
 
 ## Próximas actividades
 
-- **2.7. Gestión documental:** publicado para revisión.
-- **2.8:** procedimientos y formatos pendientes.
+- **2.8.1. Recepción de pedidos:** publicado para revisión.
+- **2.8.2–2.8.10:** procedimientos y formatos restantes pendientes.
 
 Consulta el [ROADMAP](../../ROADMAP_QUALITYPRINT.md) antes de marcar una casilla como terminada.
