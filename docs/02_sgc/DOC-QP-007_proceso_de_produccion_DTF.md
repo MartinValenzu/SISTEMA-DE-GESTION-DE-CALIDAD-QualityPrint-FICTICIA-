@@ -6,9 +6,9 @@
 | Código documental | DOC-QP-007 |
 | Etapa | 2. Documentación de la empresa y del SGC |
 | Apartado | 2.5. Proceso de producción DTF |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha de elaboración | 10 de noviembre de 2026 |
-| Estado | **Borrador para revisión** |
+| Estado | **Aprobado para el caso de estudio** |
 | Empresa | **QualityPrint, empresa ficticia** |
 | Responsables propuestos | Comercial y diseño, operador DTF, control de calidad y logística |
 | Equipo productivo previsto | Una impresora DTF y equipos auxiliares |
@@ -393,16 +393,16 @@ Estas referencias **orientan el diseño del caso académico**. No reemplazan man
 
 ## 10. Lista de validación del apartado 2.5
 
-- [ ] **2.5.1.** Recepción del pedido.
-- [ ] **2.5.2.** Preparación y aprobación del diseño.
-- [ ] **2.5.3.** Verificación de materiales.
-- [ ] **2.5.4.** Impresión DTF.
-- [ ] **2.5.5.** Aplicación del polvo adhesivo.
-- [ ] **2.5.6.** Curado del adhesivo.
-- [ ] **2.5.7.** Transferencia mediante prensa térmica.
-- [ ] **2.5.8.** Acabado final.
-- [ ] **2.5.9.** Inspección del producto.
-- [ ] **2.5.10.** Empaque y entrega.
+- [x] **2.5.1.** Recepción del pedido.
+- [x] **2.5.2.** Preparación y aprobación del diseño.
+- [x] **2.5.3.** Verificación de materiales.
+- [x] **2.5.4.** Impresión DTF.
+- [x] **2.5.5.** Aplicación del polvo adhesivo.
+- [x] **2.5.6.** Curado del adhesivo.
+- [x] **2.5.7.** Transferencia mediante prensa térmica.
+- [x] **2.5.8.** Acabado final.
+- [x] **2.5.9.** Inspección del producto.
+- [x] **2.5.10.** Empaque y entrega.
 
 ### Criterios de aprobación
 - Mantiene el mismo alcance del SGC: una operación DTF y cinco funciones.
@@ -417,5 +417,6 @@ Estas referencias **orientan el diseño del caso académico**. No reemplazan man
 | Versión | Fecha | Descripción | Estado |
 |---|---|---|---|
 | 0.1 | 10/11/2026 | Elaboración de los diez subpuntos de producción DTF, controles y registros | Borrador |
+| 1.0 | 10/11/2026 | Aprobación de los diez subpuntos de 2.5 | Aprobado |
 
-**Siguiente apartado, tras aprobar DOC-QP-007:** **2.6 — Gestión de riesgos y oportunidades**, que se documentará por separado en DOC-QP-008.
+**Siguiente documento:** [DOC-QP-008 — Gestión de riesgos y oportunidades](DOC-QP-008_gestion_de_riesgos_y_oportunidades.md), borrador en revisión.
