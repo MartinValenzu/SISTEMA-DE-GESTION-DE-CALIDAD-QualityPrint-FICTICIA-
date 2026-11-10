@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.5  
+**Versión:** 1.6  
 **Fecha:** 10/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -103,19 +103,21 @@
 
 ## 2.5. Proceso de producción DTF
 
-**Documento publicado para revisión:** [DOC-QP-007](docs/02_sgc/DOC-QP-007_proceso_de_produccion_DTF.md). Los diez subpuntos continúan pendientes de aprobación.
-- [ ] 2.5.1. Recepción del pedido.
-- [ ] 2.5.2. Preparación y aprobación del diseño.
-- [ ] 2.5.3. Verificación de materiales.
-- [ ] 2.5.4. Impresión DTF.
-- [ ] 2.5.5. Aplicación del polvo adhesivo.
-- [ ] 2.5.6. Curado del adhesivo.
-- [ ] 2.5.7. Transferencia mediante prensa térmica.
-- [ ] 2.5.8. Acabado final.
-- [ ] 2.5.9. Inspección del producto.
-- [ ] 2.5.10. Empaque y entrega.
+**Documento aprobado:** [DOC-QP-007](docs/02_sgc/DOC-QP-007_proceso_de_produccion_DTF.md).
+- [x] 2.5.1. Recepción del pedido.
+- [x] 2.5.2. Preparación y aprobación del diseño.
+- [x] 2.5.3. Verificación de materiales.
+- [x] 2.5.4. Impresión DTF.
+- [x] 2.5.5. Aplicación del polvo adhesivo.
+- [x] 2.5.6. Curado del adhesivo.
+- [x] 2.5.7. Transferencia mediante prensa térmica.
+- [x] 2.5.8. Acabado final.
+- [x] 2.5.9. Inspección del producto.
+- [x] 2.5.10. Empaque y entrega.
 
 ## 2.6. Gestión de riesgos y oportunidades
+
+**Documento publicado para revisión:** [DOC-QP-008](docs/02_sgc/DOC-QP-008_gestion_de_riesgos_y_oportunidades.md). Los seis subpuntos permanecen pendientes hasta la aprobación.
 - [ ] 2.6.1. Identificar riesgos de los procesos.
 - [ ] 2.6.2. Identificar posibles causas.
 - [ ] 2.6.3. Evaluar probabilidad e impacto.
