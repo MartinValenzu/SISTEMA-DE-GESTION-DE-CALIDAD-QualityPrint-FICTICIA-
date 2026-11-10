@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.3  
+**Versión:** 1.4  
 **Fecha:** 10/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -84,14 +84,16 @@
 
 ## 2.3. Contexto de la organización
 
-**Documento publicado para revisión:** [DOC-QP-005](docs/02_sgc/DOC-QP-005_contexto_de_la_organizacion.md). Los subpuntos 2.3.1 a 2.3.5 continúan pendientes de aprobación.
-- [ ] 2.3.1. Identificar factores internos.
-- [ ] 2.3.2. Identificar factores externos.
-- [ ] 2.3.3. Identificar partes interesadas.
-- [ ] 2.3.4. Identificar necesidades y expectativas.
-- [ ] 2.3.5. Definir el alcance del SGC.
+**Documento aprobado:** [DOC-QP-005](docs/02_sgc/DOC-QP-005_contexto_de_la_organizacion.md).
+- [x] 2.3.1. Identificar factores internos.
+- [x] 2.3.2. Identificar factores externos.
+- [x] 2.3.3. Identificar partes interesadas.
+- [x] 2.3.4. Identificar necesidades y expectativas.
+- [x] 2.3.5. Definir el alcance del SGC.
 
 ## 2.4. Procesos de la empresa
+
+**Documento en revisión:** [DOC-QP-006](docs/02_sgc/DOC-QP-006_procesos_y_mapa_de_procesos.md). Los subpuntos 2.4.1 a 2.4.6 continúan pendientes hasta su aprobación.
 - [ ] 2.4.1. Identificar procesos estratégicos.
 - [ ] 2.4.2. Identificar procesos operativos.
 - [ ] 2.4.3. Identificar procesos de apoyo.
