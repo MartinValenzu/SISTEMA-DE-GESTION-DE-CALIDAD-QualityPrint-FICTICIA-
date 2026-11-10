@@ -5,7 +5,7 @@
 ## ¿Qué es QualityPrint?
 QualityPrint simula una pequeña empresa de personalización textil que cuenta con **una impresora DTF** y **hasta cinco trabajadores**. El proyecto combina el diseño documental de un Sistema de Gestión de Calidad con el desarrollo progresivo de una **aplicación web para gestionar pedidos, registros de producción, inspecciones y no conformidades**.
 
-> **Estado actual:** Etapa 1 completada; Etapas 2.1 y 2.2 aprobadas; Etapa 2.3 aprobada; Etapa 2.4 aprobada; Etapa 2.5 en revisión (DOC-QP-007). El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
+> **Estado actual:** Etapa 1 completada; Etapas 2.1 y 2.2 aprobadas; Etapa 2.3 aprobada; Etapa 2.4 aprobada; Etapa 2.5 aprobada; Etapa 2.6 en revisión (DOC-QP-008). El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
 
 ## Objetivo
 Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros y facilitar la trazabilidad de calidad de pedidos de estampado DTF, con un panel básico de indicadores.
@@ -19,7 +19,8 @@ Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros 
 | [DOC-QP-004 — Direccionamiento estratégico](docs/02_sgc/DOC-QP-004_direccionamiento_estrategico.md) | Misión, visión, política, objetivos e indicadores (aprobado) |
 | [DOC-QP-005 — Contexto de la organización](docs/02_sgc/DOC-QP-005_contexto_de_la_organizacion.md) | Factores internos y externos, interesados, necesidades y alcance del SGC (aprobado) |
 | [DOC-QP-006 — Procesos y mapa de procesos](docs/02_sgc/DOC-QP-006_procesos_y_mapa_de_procesos.md) | Procesos estratégicos, operativos y de apoyo; mapa, entradas, salidas y responsables (aprobado) |
-| [DOC-QP-007 — Proceso de producción DTF](docs/02_sgc/DOC-QP-007_proceso_de_produccion_DTF.md) | Diez etapas de producción, controles, registros y seguridad (en revisión) |
+| [DOC-QP-007 — Proceso de producción DTF](docs/02_sgc/DOC-QP-007_proceso_de_produccion_DTF.md) | Diez etapas de producción, controles, registros y seguridad (aprobado) |
+| [DOC-QP-008 — Gestión de riesgos y oportunidades](docs/02_sgc/DOC-QP-008_gestion_de_riesgos_y_oportunidades.md) | Matriz simulada de riesgos, causas, controles, responsables y oportunidades (en revisión) |
 | [ROADMAP_QUALITYPRINT.md](ROADMAP_QUALITYPRINT.md) | Hoja de ruta detallada con casillas de avance |
 | [ETAPA_1_CHECKLIST.md](ETAPA_1_CHECKLIST.md) | Evidencias de la etapa inicial |
 | [docs/README.md](docs/README.md) | Índice de la documentación |
@@ -57,6 +58,7 @@ docs/
     DOC-QP-005_contexto_de_la_organizacion.md
     DOC-QP-006_procesos_y_mapa_de_procesos.md
     DOC-QP-007_proceso_de_produccion_DTF.md
+    DOC-QP-008_gestion_de_riesgos_y_oportunidades.md
   03_requisitos/
   04_diseno/
 ```
