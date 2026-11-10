@@ -112,7 +112,7 @@ flowchart TB
       PO2["PO-02 Producción DTF"]
       PO3["PO-03 Inspección y liberación"]
       PO4["PO-04 Empaque y entrega"]
-      PO1 --> PO2 --> PO3 --> PO4
+      PO1 --> PO2 --> PO3
     end
 
     subgraph APO["PROCESOS DE APOYO"]
