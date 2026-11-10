@@ -6,9 +6,9 @@
 | Código documental | DOC-QP-006 |
 | Etapa | 2. Documentación de la empresa y del SGC |
 | Apartado | 2.4. Procesos de la empresa |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 10 de noviembre de 2026 |
-| Estado | **Borrador para revisión y aprobación** |
+| Estado | **Aprobado para el caso de estudio** |
 | Organización | **QualityPrint, empresa ficticia** |
 | Responsable propuesto | Gerencia general, con apoyo de Control de calidad |
 
@@ -261,12 +261,12 @@ La aplicación no sustituye máquinas, inspecciones físicas ni obligaciones de 
 
 ## 4. Verificación antes de aprobar
 
-- [ ] **2.4.1.** Identificar procesos estratégicos.
-- [ ] **2.4.2.** Identificar procesos operativos.
-- [ ] **2.4.3.** Identificar procesos de apoyo.
-- [ ] **2.4.4.** Elaborar el mapa de procesos.
-- [ ] **2.4.5.** Describir entradas y salidas de cada proceso.
-- [ ] **2.4.6.** Definir responsables de los procesos.
+- [x] **2.4.1.** Identificar procesos estratégicos.
+- [x] **2.4.2.** Identificar procesos operativos.
+- [x] **2.4.3.** Identificar procesos de apoyo.
+- [x] **2.4.4.** Elaborar el mapa de procesos.
+- [x] **2.4.5.** Describir entradas y salidas de cada proceso.
+- [x] **2.4.6.** Definir responsables de los procesos.
 
 **Criterios para aprobación:**
 1. Los procesos son coherentes con cinco trabajadores y una impresora DTF.
@@ -281,5 +281,6 @@ La aplicación no sustituye máquinas, inspecciones físicas ni obligaciones de 
 | Versión | Fecha | Modificación | Estado |
 |---|---|---|---|
 | 0.1 | 10/11/2026 | Redacción de apartados 2.4.1 a 2.4.6 y mapa de procesos | Borrador |
+| 1.0 | 10/11/2026 | Aprobación de los seis apartados y del mapa de procesos | Aprobado |
 
-**Siguiente actividad, después de la aprobación:** **2.5. Proceso de producción DTF**, en un documento independiente.
+**Siguiente documento:** [DOC-QP-007 — Proceso de producción DTF](DOC-QP-007_proceso_de_produccion_DTF.md), en revisión.
