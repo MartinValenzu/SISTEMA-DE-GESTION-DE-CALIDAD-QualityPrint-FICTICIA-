@@ -5,7 +5,7 @@
 ## ¿Qué es QualityPrint?
 QualityPrint simula una pequeña empresa de personalización textil que cuenta con **una impresora DTF** y **hasta cinco trabajadores**. El proyecto combina el diseño documental de un Sistema de Gestión de Calidad con el desarrollo progresivo de una **aplicación web para gestionar pedidos, registros de producción, inspecciones y no conformidades**.
 
-> **Estado actual:** Etapa 1 completada; Etapas 2.1 y 2.2 aprobadas; Etapa 2.3 aprobada; Etapa 2.4 aprobada; Etapa 2.5 aprobada; Etapa 2.6 aprobada; Etapa 2.7 en revisión (DOC-QP-009 y LM-QP-001). El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
+> **Estado actual:** Etapa 1 completada; Etapas 2.1 y 2.2 aprobadas; Etapa 2.3 aprobada; Etapa 2.4 aprobada; Etapa 2.5 aprobada; Etapa 2.6 aprobada; Etapa 2.7 aprobada; Etapa 2.8.1 en revisión (PR-QP-001). El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
 
 ## Objetivo
 Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros y facilitar la trazabilidad de calidad de pedidos de estampado DTF, con un panel básico de indicadores.
@@ -21,8 +21,9 @@ Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros 
 | [DOC-QP-006 — Procesos y mapa de procesos](docs/02_sgc/DOC-QP-006_procesos_y_mapa_de_procesos.md) | Procesos estratégicos, operativos y de apoyo; mapa, entradas, salidas y responsables (aprobado) |
 | [DOC-QP-007 — Proceso de producción DTF](docs/02_sgc/DOC-QP-007_proceso_de_produccion_DTF.md) | Diez etapas de producción, controles, registros y seguridad (aprobado) |
 | [DOC-QP-008 — Gestión de riesgos y oportunidades](docs/02_sgc/DOC-QP-008_gestion_de_riesgos_y_oportunidades.md) | Matriz simulada de riesgos, causas, controles, responsables y oportunidades (aprobado) |
-| [DOC-QP-009 — Gestión documental](docs/02_sgc/DOC-QP-009_gestion_documental.md) | Codificación, versiones, responsables y procedimiento (en revisión) |
-| [LM-QP-001 — Listado maestro de documentos](docs/02_sgc/LM-QP-001_listado_maestro_de_documentos.md) | Registro maestro de documentos, versiones, estados y enlaces (en revisión) |
+| [DOC-QP-009 — Gestión documental](docs/02_sgc/DOC-QP-009_gestion_documental.md) | Codificación, versiones, responsables y procedimiento (aprobado) |
+| [LM-QP-001 — Listado maestro de documentos](docs/02_sgc/LM-QP-001_listado_maestro_de_documentos.md) | Registro maestro de documentos, versiones, estados y enlaces (aprobado) |
+| [PR-QP-001 — Procedimiento de recepción de pedidos](docs/02_sgc/procedimientos/PR-QP-001_recepcion_de_pedidos.md) | Revisión y confirmación de pedidos antes de la producción (en revisión) |
 | [ROADMAP_QUALITYPRINT.md](ROADMAP_QUALITYPRINT.md) | Hoja de ruta detallada con casillas de avance |
 | [ETAPA_1_CHECKLIST.md](ETAPA_1_CHECKLIST.md) | Evidencias de la etapa inicial |
 | [docs/README.md](docs/README.md) | Índice de la documentación |
@@ -63,6 +64,8 @@ docs/
     DOC-QP-008_gestion_de_riesgos_y_oportunidades.md
     DOC-QP-009_gestion_documental.md
     LM-QP-001_listado_maestro_de_documentos.md
+    procedimientos/
+      PR-QP-001_recepcion_de_pedidos.md
   03_requisitos/
   04_diseno/
 ```
