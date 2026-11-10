@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.4  
+**Versión:** 1.5  
 **Fecha:** 10/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -93,15 +93,17 @@
 
 ## 2.4. Procesos de la empresa
 
-**Documento en revisión:** [DOC-QP-006](docs/02_sgc/DOC-QP-006_procesos_y_mapa_de_procesos.md). Los subpuntos 2.4.1 a 2.4.6 continúan pendientes hasta su aprobación.
-- [ ] 2.4.1. Identificar procesos estratégicos.
-- [ ] 2.4.2. Identificar procesos operativos.
-- [ ] 2.4.3. Identificar procesos de apoyo.
-- [ ] 2.4.4. Elaborar el mapa de procesos.
-- [ ] 2.4.5. Describir las entradas y salidas de cada proceso.
-- [ ] 2.4.6. Definir responsables de los procesos.
+**Documento aprobado:** [DOC-QP-006](docs/02_sgc/DOC-QP-006_procesos_y_mapa_de_procesos.md).
+- [x] 2.4.1. Identificar procesos estratégicos.
+- [x] 2.4.2. Identificar procesos operativos.
+- [x] 2.4.3. Identificar procesos de apoyo.
+- [x] 2.4.4. Elaborar el mapa de procesos.
+- [x] 2.4.5. Describir las entradas y salidas de cada proceso.
+- [x] 2.4.6. Definir responsables de los procesos.
 
 ## 2.5. Proceso de producción DTF
+
+**Documento publicado para revisión:** [DOC-QP-007](docs/02_sgc/DOC-QP-007_proceso_de_produccion_DTF.md). Los diez subpuntos continúan pendientes de aprobación.
 - [ ] 2.5.1. Recepción del pedido.
 - [ ] 2.5.2. Preparación y aprobación del diseño.
 - [ ] 2.5.3. Verificación de materiales.
