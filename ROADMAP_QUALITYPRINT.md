@@ -8,7 +8,7 @@
 **Actividad:** Personalización y estampado textil mediante DTF.
 
 ### ESTADO GENERAL
-- [ ] Etapa 1. Inicio y organización del proyecto.
+- [x] Etapa 1. Inicio y organización del proyecto.
 - [ ] Etapa 2. Documentación de la empresa y del SGC.
 - [ ] Etapa 3. Análisis de requisitos del software.
 - [ ] Etapa 4. Diseño del software y base de datos.
@@ -61,6 +61,8 @@
 # ETAPA 2. DOCUMENTACIÓN DE LA EMPRESA Y DEL SGC
 
 ## 2.1. Información general de la empresa
+
+**Documento redactado y publicado para revisión:** [DOC-QP-003](docs/02_sgc/DOC-QP-003_informacion_general_empresa.md). Las casillas permanecen pendientes de validación.
 - [ ] 2.1.1. Nombre y descripción de QualityPrint.
 - [ ] 2.1.2. Actividad económica.
 - [ ] 2.1.3. Productos y servicios.
