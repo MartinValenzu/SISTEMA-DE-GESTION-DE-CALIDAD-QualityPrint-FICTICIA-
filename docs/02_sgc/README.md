@@ -14,11 +14,15 @@
 
 - [DOC-QP-007 — Descripción del proceso de producción DTF](DOC-QP-007_proceso_de_produccion_DTF.md): apartados 2.5.1–2.5.10; **aprobado**.
 
-- [DOC-QP-008 — Gestión de riesgos y oportunidades](DOC-QP-008_gestion_de_riesgos_y_oportunidades.md): apartados 2.6.1–2.6.6; **borrador pendiente de revisión y aprobación**.
+- [DOC-QP-008 — Gestión de riesgos y oportunidades](DOC-QP-008_gestion_de_riesgos_y_oportunidades.md): apartados 2.6.1–2.6.6; **aprobado**.
+
+- [DOC-QP-009 — Gestión documental](DOC-QP-009_gestion_documental.md): apartados 2.7.1–2.7.5; **borrador pendiente de aprobación**.
+
+- [LM-QP-001 — Listado maestro de documentos](LM-QP-001_listado_maestro_de_documentos.md): índice controlado de documentos; **borrador pendiente de aprobación**.
 
 ## Próximas actividades
 
-- **2.6. Gestión de riesgos y oportunidades:** publicado para revisión.
-- **2.7–2.8:** control documental, procedimientos y formatos.
+- **2.7. Gestión documental:** publicado para revisión.
+- **2.8:** procedimientos y formatos pendientes.
 
 Consulta el [ROADMAP](../../ROADMAP_QUALITYPRINT.md) antes de marcar una casilla como terminada.
