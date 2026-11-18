@@ -5,7 +5,7 @@
 ## ¿Qué es QualityPrint?
 QualityPrint simula una pequeña empresa de personalización textil que cuenta con **una impresora DTF** y **hasta cinco trabajadores**. El proyecto combina el diseño documental de un Sistema de Gestión de Calidad con el desarrollo progresivo de una **aplicación web para gestionar pedidos, registros de producción, inspecciones y no conformidades**.
 
-> **Estado actual:** Etapa 1 completada; Etapas 2.1 y 2.2 aprobadas; Etapa 2.3 aprobada; Etapa 2.4 aprobada; Etapa 2.5 aprobada; Etapa 2.6 aprobada; Etapa 2.7 aprobada; Etapa 2.8.1 en revisión (PR-QP-001). El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
+> **Estado actual:** Etapa 1 completada; Etapas 2.1 y 2.2 aprobadas; Etapa 2.3 aprobada; Etapa 2.4 aprobada; Etapa 2.5 aprobada; Etapa 2.6 aprobada; Etapa 2.7 aprobada; Etapa 2.8.1 aprobada (PR-QP-001); Etapa 2.8.2 en revisión (PR-QP-002). El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
 
 ## Objetivo
 Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros y facilitar la trazabilidad de calidad de pedidos de estampado DTF, con un panel básico de indicadores.
@@ -23,7 +23,8 @@ Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros 
 | [DOC-QP-008 — Gestión de riesgos y oportunidades](docs/02_sgc/DOC-QP-008_gestion_de_riesgos_y_oportunidades.md) | Matriz simulada de riesgos, causas, controles, responsables y oportunidades (aprobado) |
 | [DOC-QP-009 — Gestión documental](docs/02_sgc/DOC-QP-009_gestion_documental.md) | Codificación, versiones, responsables y procedimiento (aprobado) |
 | [LM-QP-001 — Listado maestro de documentos](docs/02_sgc/LM-QP-001_listado_maestro_de_documentos.md) | Registro maestro de documentos, versiones, estados y enlaces (aprobado) |
-| [PR-QP-001 — Procedimiento de recepción de pedidos](docs/02_sgc/procedimientos/PR-QP-001_recepcion_de_pedidos.md) | Revisión y confirmación de pedidos antes de la producción (en revisión) |
+| [PR-QP-001 — Procedimiento de recepción de pedidos](docs/02_sgc/procedimientos/PR-QP-001_recepcion_de_pedidos.md) | Revisión y confirmación de pedidos antes de la producción (aprobado) |
+| [PR-QP-002 — Procedimiento de producción DTF](docs/02_sgc/procedimientos/PR-QP-002_produccion_dtf.md) | Materiales, parámetros, primera pieza, producción y cierre de lote (en revisión) |
 | [ROADMAP_QUALITYPRINT.md](ROADMAP_QUALITYPRINT.md) | Hoja de ruta detallada con casillas de avance |
 | [ETAPA_1_CHECKLIST.md](ETAPA_1_CHECKLIST.md) | Evidencias de la etapa inicial |
 | [docs/README.md](docs/README.md) | Índice de la documentación |
@@ -66,6 +67,7 @@ docs/
     LM-QP-001_listado_maestro_de_documentos.md
     procedimientos/
       PR-QP-001_recepcion_de_pedidos.md
+      PR-QP-002_produccion_dtf.md
   03_requisitos/
   04_diseno/
 ```
