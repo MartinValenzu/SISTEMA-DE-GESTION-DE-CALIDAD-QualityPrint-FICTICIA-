@@ -31,9 +31,9 @@
 
 ## 2. Detalle de prendas
 
-Una fila por combinación de producto, tejido, color, talla y diseño. Añadir filas según necesidad.
+Una fila por combinación de producto, tejido, color, talla y conjunto de estampados. Si una prenda lleva varios estampados, registrar su cantidad una sola vez y asociar todos sus diseños en la sección 3.
 
-| N.º línea | Producto | Tejido | Color | Talla | Cantidad (unidades) | ID de diseño |
+| N.º línea | Producto | Tejido | Color | Talla | Cantidad (unidades) | ID(s) de diseño |
 |---|---|---|---|---|---:|---|
 | | | | | | | |
 | | | | | | | |
@@ -45,10 +45,10 @@ Una fila por combinación de producto, tejido, color, talla y diseño. Añadir f
 
 Una fila por estampado, incluyendo los adicionales de una misma prenda. Vincular cada diseño a la línea correspondiente.
 
-| ID de diseño | Línea(s) de pedido | Versión del arte | Referencia del archivo | Posición y orientación | Ancho (cm) | Alto (cm) | Tolerancia y referencia de posición | Referencia de color / acabado |
-|---|---|---|---|---|---:|---:|---|---|
-| | | | | | | | | |
-| | | | | | | | | |
+| ID de diseño | Línea(s) de pedido | Versión del arte | Referencia del archivo | Posición y orientación | Ancho (cm) | Alto (cm) | Tolerancia dimensional (cm) | Referencia de posición y tolerancia (cm / grados si aplica) | Referencia de color / acabado |
+|---|---|---|---|---|---:|---:|---|---|---|
+| | | | | | | | | | |
+| | | | | | | | | | |
 
 ## 4. Revisión de requisitos y factibilidad
 
