@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.12  
+**Versión:** 1.13  
 **Fecha:** 18/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -144,12 +144,14 @@
 
 **Entregable aprobado:** [PR-QP-004 — Procedimiento de gestión de no conformidades](docs/02_sgc/procedimientos/PR-QP-004_gestion_de_no_conformidades.md).
 
-**Entregable en revisión:** [F-QP-001 — Formato de recepción de pedidos](docs/02_sgc/formatos/F-QP-001_recepcion_de_pedidos.md). La casilla 2.8.5 permanecerá pendiente hasta su aprobación.
+**Entregable aprobado:** [F-QP-001 — Formato de recepción de pedidos](docs/02_sgc/formatos/F-QP-001_recepcion_de_pedidos.md).
+
+**Entregable en revisión:** [F-QP-002 — Formato de inspección de materiales](docs/02_sgc/formatos/F-QP-002_inspeccion_de_materiales.md). La casilla 2.8.6 permanecerá pendiente hasta su aprobación.
 - [x] 2.8.1. Procedimiento de recepción de pedidos.
 - [x] 2.8.2. Procedimiento de producción DTF.
 - [x] 2.8.3. Procedimiento de inspección de calidad.
 - [x] 2.8.4. Procedimiento de gestión de no conformidades.
-- [ ] 2.8.5. Formato de recepción de pedidos.
+- [x] 2.8.5. Formato de recepción de pedidos.
 - [ ] 2.8.6. Formato de inspección de materiales.
 - [ ] 2.8.7. Registro de producción DTF.
 - [ ] 2.8.8. Formato de inspección final.
