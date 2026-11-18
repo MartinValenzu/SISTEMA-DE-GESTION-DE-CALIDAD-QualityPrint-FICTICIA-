@@ -4,13 +4,13 @@
 |---|---|
 | Código | PR-QP-004 |
 | Actividad | 2.8.4 — Procedimiento de gestión de no conformidades |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 18 de noviembre de 2026 |
-| Estado | **Borrador para revisión** |
+| Estado | **Aprobado para el proyecto académico** |
 | Empresa | QualityPrint (ficticia) |
 | Proceso | PO-03 — Control de calidad |
 | Responsable | Control de calidad |
-| Aprobación del portafolio | Pendiente de revisión del usuario |
+| Aprobación del portafolio | Aprobado por el usuario del proyecto |
 
 > Procedimiento académico propuesto; no constituye evidencia de incidencias reales ni acciones ejecutadas.
 
@@ -161,12 +161,13 @@ Son criterios para pruebas posteriores del SGC simulado; no se declaran ejecutad
 
 ### Estado del roadmap
 
-- [ ] **2.8.4.** Procedimiento de gestión de no conformidades redactado y publicado; pendiente de aprobación.
+- [x] **2.8.4.** Procedimiento de gestión de no conformidades aprobado para el proyecto académico.
 
 ## 14. Control de versiones
 
 | Versión | Fecha | Cambio | Estado |
 |---|---|---|---|
 | 0.1 | 18/11/2026 | Procedimiento inicial: contención, disposición, acción correctiva y cierre | En revisión |
+| 1.0 | 18/11/2026 | Aprobación del usuario | Aprobado |
 
-**Siguiente entregable:** F-QP-001 — Formato de recepción de pedidos (2.8.5).
+**Siguiente entregable:** [F-QP-001 — Formato de recepción de pedidos](../formatos/F-QP-001_recepcion_de_pedidos.md) (2.8.5).
