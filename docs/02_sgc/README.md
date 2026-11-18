@@ -20,11 +20,14 @@
 
 - [LM-QP-001 — Listado maestro de documentos](LM-QP-001_listado_maestro_de_documentos.md): índice controlado de documentos; **aprobado**.
 
-- [PR-QP-001 — Procedimiento de recepción de pedidos](procedimientos/PR-QP-001_recepcion_de_pedidos.md): actividad 2.8.1; **borrador pendiente de revisión y aprobación**.
+- [PR-QP-001 — Procedimiento de recepción de pedidos](procedimientos/PR-QP-001_recepcion_de_pedidos.md): actividad 2.8.1; **aprobado**.
+
+- [PR-QP-002 — Procedimiento de producción DTF](procedimientos/PR-QP-002_produccion_dtf.md): actividad 2.8.2; **borrador pendiente de revisión y aprobación**.
 
 ## Próximas actividades
 
-- **2.8.1. Recepción de pedidos:** publicado para revisión.
-- **2.8.2–2.8.10:** procedimientos y formatos restantes pendientes.
+- **2.8.1. Recepción de pedidos:** aprobado.
+- **2.8.2. Producción DTF:** publicado para revisión.
+- **2.8.3–2.8.10:** procedimientos y formatos restantes pendientes.
 
 Consulta el [ROADMAP](../../ROADMAP_QUALITYPRINT.md) antes de marcar una casilla como terminada.
