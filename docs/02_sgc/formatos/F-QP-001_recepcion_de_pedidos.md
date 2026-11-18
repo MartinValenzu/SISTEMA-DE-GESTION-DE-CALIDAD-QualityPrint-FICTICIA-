@@ -3,9 +3,9 @@
 | Campo de control documental | Información |
 |---|---|
 | Código | F-QP-001 |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 18/11/2026 |
-| Estado | **Plantilla en revisión** |
+| Estado | **Formato aprobado para el proyecto académico** |
 | Actividad | 2.8.5 — Formato de recepción de pedidos |
 | Responsable | Comercial y diseño |
 | Procedimiento asociado | [PR-QP-001 — Recepción de pedidos](../procedimientos/PR-QP-001_recepcion_de_pedidos.md) |
@@ -141,7 +141,8 @@ No sobrescribir la versión anterior ni perder la primera fecha de entrega acord
 | Versión | Fecha | Cambio | Estado |
 |---|---|---|---|
 | 0.1 | 18/11/2026 | Plantilla inicial de recepción, requisitos, factibilidad, aprobaciones y cambios | En revisión |
+| 1.0 | 18/11/2026 | Aprobación del formato F-QP-001 por el usuario | Aprobado |
 
-- [ ] **2.8.5.** Formato de recepción de pedidos publicado; pendiente de aprobación.
+- [x] **2.8.5.** Formato de recepción de pedidos aprobado para el proyecto académico.
 
-**Siguiente entregable:** F-QP-002 — Formato de inspección de materiales (2.8.6).
+**Siguiente entregable:** [F-QP-002 — Formato de inspección de materiales](F-QP-002_inspeccion_de_materiales.md) (2.8.6), publicado para revisión.
