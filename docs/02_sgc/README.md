@@ -26,14 +26,17 @@
 
 - [PR-QP-003 — Procedimiento de inspección de calidad](procedimientos/PR-QP-003_inspeccion_de_calidad.md): actividad 2.8.3; **aprobado**.
 
-- [PR-QP-004 — Procedimiento de gestión de no conformidades](procedimientos/PR-QP-004_gestion_de_no_conformidades.md): actividad 2.8.4; **borrador pendiente de revisión y aprobación**.
+- [PR-QP-004 — Procedimiento de gestión de no conformidades](procedimientos/PR-QP-004_gestion_de_no_conformidades.md): actividad 2.8.4; **aprobado**.
+
+- [F-QP-001 — Formato de recepción de pedidos](formatos/F-QP-001_recepcion_de_pedidos.md): actividad 2.8.5; **plantilla pendiente de revisión y aprobación**.
 
 ## Próximas actividades
 
 - **2.8.1. Recepción de pedidos:** aprobado.
 - **2.8.2. Producción DTF:** aprobado.
 - **2.8.3. Inspección de calidad:** aprobado.
-- **2.8.4. Gestión de no conformidades:** publicado para revisión.
-- **2.8.5–2.8.10:** formatos restantes pendientes.
+- **2.8.4. Gestión de no conformidades:** aprobado.
+- **2.8.5. Formato de recepción de pedidos:** publicado para revisión.
+- **2.8.6–2.8.10:** formatos restantes pendientes.
 
 Consulta el [ROADMAP](../../ROADMAP_QUALITYPRINT.md) antes de marcar una casilla como terminada.
