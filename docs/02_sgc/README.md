@@ -22,12 +22,15 @@
 
 - [PR-QP-001 — Procedimiento de recepción de pedidos](procedimientos/PR-QP-001_recepcion_de_pedidos.md): actividad 2.8.1; **aprobado**.
 
-- [PR-QP-002 — Procedimiento de producción DTF](procedimientos/PR-QP-002_produccion_dtf.md): actividad 2.8.2; **borrador pendiente de revisión y aprobación**.
+- [PR-QP-002 — Procedimiento de producción DTF](procedimientos/PR-QP-002_produccion_dtf.md): actividad 2.8.2; **aprobado**.
+
+- [PR-QP-003 — Procedimiento de inspección de calidad](procedimientos/PR-QP-003_inspeccion_de_calidad.md): actividad 2.8.3; **borrador pendiente de revisión y aprobación**.
 
 ## Próximas actividades
 
 - **2.8.1. Recepción de pedidos:** aprobado.
-- **2.8.2. Producción DTF:** publicado para revisión.
-- **2.8.3–2.8.10:** procedimientos y formatos restantes pendientes.
+- **2.8.2. Producción DTF:** aprobado.
+- **2.8.3. Inspección de calidad:** publicado para revisión.
+- **2.8.4–2.8.10:** procedimiento y formatos restantes pendientes.
 
 Consulta el [ROADMAP](../../ROADMAP_QUALITYPRINT.md) antes de marcar una casilla como terminada.
