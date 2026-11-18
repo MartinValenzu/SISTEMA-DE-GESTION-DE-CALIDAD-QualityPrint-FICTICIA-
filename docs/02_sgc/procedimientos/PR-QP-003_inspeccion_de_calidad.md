@@ -4,13 +4,13 @@
 |---|---|
 | Código | PR-QP-003 |
 | Actividad | 2.8.3 — Procedimiento de inspección de calidad |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 18 de noviembre de 2026 |
-| Estado | **Borrador para revisión** |
+| Estado | **Aprobado para el proyecto académico** |
 | Empresa | QualityPrint (ficticia) |
 | Proceso | PO-03 — Control de calidad |
 | Responsable | Control de calidad |
-| Aprobación del portafolio | Pendiente de revisión del usuario |
+| Aprobación del portafolio | Aprobado por el usuario del proyecto |
 
 > Procedimiento propuesto para el SGC académico de QualityPrint. Los controles se documentan para su posterior simulación; no representan inspecciones reales ejecutadas.
 
@@ -30,7 +30,7 @@ Desde la recepción del lote acabado, identificado y registrado por Producción 
 - [DOC-QP-007 — Proceso DTF](../DOC-QP-007_proceso_de_produccion_DTF.md), apartado 2.5.9.
 - [DOC-QP-008 — Gestión de riesgos](../DOC-QP-008_gestion_de_riesgos_y_oportunidades.md), riesgos R-07, R-08 y R-11.
 
-**Registros previstos:** F-QP-003 (producción), F-QP-004 (inspección final) y F-QP-005 (no conformidades). PR-QP-004 definirá el tratamiento de no conformidades. Todos están pendientes de creación y aprobación.
+**Registros previstos:** F-QP-003 (producción), F-QP-004 (inspección final) y F-QP-005 (no conformidades). [PR-QP-004](PR-QP-004_gestion_de_no_conformidades.md) establece el tratamiento de no conformidades y está en revisión. Los formatos están pendientes de creación y aprobación.
 
 ## 4. Definiciones
 
@@ -163,12 +163,13 @@ Los criterios son actividades futuras de comprobación; no representan inspeccio
 
 ### Estado del roadmap
 
-- [ ] **2.8.3.** Procedimiento de inspección de calidad redactado y publicado; pendiente de aprobación.
+- [x] **2.8.3.** Procedimiento de inspección de calidad aprobado para el proyecto académico.
 
 ## 12. Control de versiones
 
 | Versión | Fecha | Cambio | Estado |
 |---|---|---|---|
 | 0.1 | 18/11/2026 | Procedimiento inicial con criterios de aceptación, defectos, inspección individual y liberación | En revisión |
+| 1.0 | 18/11/2026 | Aprobación del usuario y vínculo con PR-QP-004 | Aprobado |
 
-**Siguiente entregable:** PR-QP-004 — Procedimiento de gestión de no conformidades (2.8.4).
+**Siguiente entregable:** [PR-QP-004 — Procedimiento de gestión de no conformidades](PR-QP-004_gestion_de_no_conformidades.md) (2.8.4).
