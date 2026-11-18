@@ -4,7 +4,7 @@
 |---|---|
 | Código | LM-QP-001 |
 | Tipo | Listado maestro de documentos del SGC simulado |
-| Versión | 1.1 |
+| Versión | 1.2 |
 | Fecha | 18 de noviembre de 2026 |
 | Estado | **Aprobado para el proyecto académico** |
 | Responsable propuesto | Control de calidad / administrador de la documentación |
@@ -25,11 +25,12 @@
 | DOC-QP-007 | Descripción del proceso de producción DTF | 1.0 | Aprobado | 10/11/2026 | Operación DTF / calidad | [Archivo](DOC-QP-007_proceso_de_produccion_DTF.md) |
 | DOC-QP-008 | Gestión de riesgos y oportunidades | 1.0 | Aprobado | 10/11/2026 | Gerencia / calidad | [Archivo](DOC-QP-008_gestion_de_riesgos_y_oportunidades.md) |
 | DOC-QP-009 | Gestión documental | 1.0 | Aprobado | 10/11/2026 | Calidad / responsable del proyecto | [Archivo](DOC-QP-009_gestion_documental.md) |
-| LM-QP-001 | Listado maestro de documentos | 1.1 | Vigente | 18/11/2026 | Calidad / custodio documental | [Este archivo](LM-QP-001_listado_maestro_de_documentos.md) |
+| LM-QP-001 | Listado maestro de documentos | 1.2 | Vigente | 18/11/2026 | Calidad / custodio documental | [Este archivo](LM-QP-001_listado_maestro_de_documentos.md) |
 | PR-QP-001 | Procedimiento de recepción de pedidos | 1.0 | Aprobado | 18/11/2026 | Comercial y diseño / calidad | [Archivo](procedimientos/PR-QP-001_recepcion_de_pedidos.md) |
-| PR-QP-002 | Procedimiento de producción DTF | 0.1 | En revisión | 18/11/2026 | Operador DTF / calidad | [Archivo](procedimientos/PR-QP-002_produccion_dtf.md) |
+| PR-QP-002 | Procedimiento de producción DTF | 1.0 | Aprobado | 18/11/2026 | Operador DTF / calidad | [Archivo](procedimientos/PR-QP-002_produccion_dtf.md) |
+| PR-QP-003 | Procedimiento de inspección de calidad | 0.1 | En revisión | 18/11/2026 | Control de calidad | [Archivo](procedimientos/PR-QP-003_inspeccion_de_calidad.md) |
 
-**Comprobación de vigencia:** DOC-QP-001 a DOC-QP-009 y PR-QP-001 están aprobados para el proyecto académico; LM-QP-001 conserva su aprobación y se actualiza administrativamente. PR-QP-002 está publicado como borrador.
+**Comprobación de vigencia:** DOC-QP-001 a DOC-QP-009, PR-QP-001 y PR-QP-002 están aprobados para el proyecto académico; LM-QP-001 conserva su aprobación y se actualiza administrativamente. PR-QP-003 está publicado como borrador.
 
 ## 2. Archivos operativos del repositorio (sin código retrospectivo)
 
@@ -47,7 +48,6 @@ Los códigos siguientes son **reservas orientativas**: aún no existen como docu
 
 | Código propuesto | Nombre del entregable | Apartado del roadmap | Estado |
 |---|---|---|---|
-| PR-QP-003 | Procedimiento de inspección de calidad | 2.8.3 | Previsto |
 | PR-QP-004 | Procedimiento de gestión de no conformidades | 2.8.4 | Previsto |
 | F-QP-001 | Formato de recepción de pedidos | 2.8.5 | Previsto |
 | F-QP-002 | Formato de inspección de materiales | 2.8.6 | Previsto |
@@ -72,6 +72,7 @@ Los códigos siguientes son **reservas orientativas**: aún no existen como docu
 |---|---|---|---|
 | 0.1 | 10/11/2026 | Inventario inicial de documentos publicados y previstos | Borrador |
 | 1.0 | 10/11/2026 | Aprobación del listado y registro de PR-QP-001 en revisión | Aprobado |
-| 1.1 | 18/11/2026 | Actualización administrativa: PR-QP-001 aprobado, PR-QP-002 en revisión y ajuste de tabla | Vigente |
+| 1.1 | 18/11/2026 | Actualización administrativa: PR-QP-001 aprobado, PR-QP-002 en revisión y ajuste de tabla | Sustituido |
+| 1.2 | 18/11/2026 | Actualización administrativa: PR-QP-002 aprobado y PR-QP-003 en revisión | Vigente |
 
-**Próximo evento:** revisión de PR-QP-002, seguida por actualización de este listado.
+**Próximo evento:** revisión de PR-QP-003, seguida por actualización de este listado.
