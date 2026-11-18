@@ -5,7 +5,7 @@
 ## ¿Qué es QualityPrint?
 QualityPrint simula una pequeña empresa de personalización textil que cuenta con **una impresora DTF** y **hasta cinco trabajadores**. El proyecto combina el diseño documental de un Sistema de Gestión de Calidad con el desarrollo progresivo de una **aplicación web para gestionar pedidos, registros de producción, inspecciones y no conformidades**.
 
-> **Estado actual:** Etapa 1 completada; Etapas 2.1 y 2.2 aprobadas; Etapa 2.3 aprobada; Etapa 2.4 aprobada; Etapa 2.5 aprobada; Etapa 2.6 aprobada; Etapa 2.7 aprobada; Etapa 2.8.1 aprobada (PR-QP-001); Etapa 2.8.2 aprobada (PR-QP-002); Etapa 2.8.3 aprobada (PR-QP-003); Etapa 2.8.4 aprobada (PR-QP-004); Etapa 2.8.5 en revisión (F-QP-001). El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
+> **Estado actual:** Etapa 1 completada; Etapas 2.1 y 2.2 aprobadas; Etapa 2.3 aprobada; Etapa 2.4 aprobada; Etapa 2.5 aprobada; Etapa 2.6 aprobada; Etapa 2.7 aprobada; Etapa 2.8.1 aprobada (PR-QP-001); Etapa 2.8.2 aprobada (PR-QP-002); Etapa 2.8.3 aprobada (PR-QP-003); Etapa 2.8.4 aprobada (PR-QP-004); Etapa 2.8.5 aprobada (F-QP-001); Etapa 2.8.6 en revisión (F-QP-002). El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
 
 ## Objetivo
 Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros y facilitar la trazabilidad de calidad de pedidos de estampado DTF, con un panel básico de indicadores.
@@ -27,7 +27,8 @@ Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros 
 | [PR-QP-002 — Procedimiento de producción DTF](docs/02_sgc/procedimientos/PR-QP-002_produccion_dtf.md) | Materiales, parámetros, primera pieza, producción y cierre de lote (aprobado) |
 | [PR-QP-003 — Procedimiento de inspección de calidad](docs/02_sgc/procedimientos/PR-QP-003_inspeccion_de_calidad.md) | Criterios, defectos, inspección individual y liberación (aprobado) |
 | [PR-QP-004 — Procedimiento de gestión de no conformidades](docs/02_sgc/procedimientos/PR-QP-004_gestion_de_no_conformidades.md) | Contención, disposición, causa, acción correctiva y cierre (aprobado) |
-| [F-QP-001 — Formato de recepción de pedidos](docs/02_sgc/formatos/F-QP-001_recepcion_de_pedidos.md) | Plantilla de pedido, requisitos, aprobaciones y cambios (en revisión) |
+| [F-QP-001 — Formato de recepción de pedidos](docs/02_sgc/formatos/F-QP-001_recepcion_de_pedidos.md) | Plantilla de pedido, requisitos, aprobaciones y cambios (aprobado) |
+| [F-QP-002 — Inspección de materiales DTF](docs/02_sgc/formatos/F-QP-002_inspeccion_de_materiales.md) | Plantilla de verificación, retención y liberación de materiales (en revisión) |
 | [ROADMAP_QUALITYPRINT.md](ROADMAP_QUALITYPRINT.md) | Hoja de ruta detallada con casillas de avance |
 | [ETAPA_1_CHECKLIST.md](ETAPA_1_CHECKLIST.md) | Evidencias de la etapa inicial |
 | [docs/README.md](docs/README.md) | Índice de la documentación |
@@ -75,6 +76,7 @@ docs/
       PR-QP-004_gestion_de_no_conformidades.md
     formatos/
       F-QP-001_recepcion_de_pedidos.md
+      F-QP-002_inspeccion_de_materiales.md
   03_requisitos/
   04_diseno/
 ```
