@@ -5,14 +5,15 @@
 | Proyecto | QualityPrint — Sistema de Gestión de Calidad |
 | Código | PR-QP-001 |
 | Etapa y actividad | 2.8.1 — Procedimiento de recepción de pedidos |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha de elaboración | 10 de noviembre de 2026 |
-| Estado | **Borrador publicado para revisión; no aprobado** |
+| Fecha de aprobación | 18 de noviembre de 2026 |
+| Estado | **Aprobado para el proyecto académico** |
 | Empresa | QualityPrint (**empresa ficticia**) |
 | Proceso relacionado | PO-01 — Gestión de pedidos y del diseño |
 | Responsable del proceso | Comercial y diseño |
 | Revisión propuesta | Control de calidad |
-| Aprobación del contenido del portafolio | Pendiente de revisión del usuario |
+| Aprobación del contenido del portafolio | Aprobado por el usuario del proyecto |
 
 > **Alcance académico:** describe un procedimiento propuesto para una pequeña empresa ficticia de personalización textil DTF (hasta cinco trabajadores y una impresora). No es un registro de pedidos ejecutados ni demuestra implantación real de un Sistema de Gestión de Calidad.
 
@@ -44,12 +45,12 @@ Este procedimiento **no reemplaza** la aprobación final del arte prevista en 2.
 
 | Término | Significado |
 |---|---|
-| Solicitud | Petición inicial, posiblemente incompleta, que aún no genera obligación de producción |
-| Pedido documentado | Solicitud identificada cuyos datos esenciales se registraron |
-| Pedido confirmado | Solicitud cuyos requisitos, factibilidad y condiciones se revisaron y aceptaron |
-| Diseño aprobado | Versión exacta del arte que recibió conformidad explícita del cliente |
-| Cambio de pedido | Modificación de requisitos, cantidades, entrega o diseño posterior a un acuerdo |
-| Factibilidad | Posibilidad de cumplir requisitos con materiales, equipo, personal y plazo disponibles |
+| Solicitud | Petición del cliente registrada antes de confirmar requisitos y plazo. |
+| Pedido documentado | Solicitud con ID, cliente, producto, cantidades por talla, color, tejido, diseño solicitado y entrega registrada. |
+| Pedido confirmado | Pedido viable cuyos requisitos y fecha de entrega fueron aceptados por el cliente. |
+| Diseño aprobado | Archivo identificado por versión, dimensiones y posición del estampado, aceptado expresamente por el cliente. |
+| Cambio de pedido | Modificación de un requisito confirmado, registrada en una nueva versión del pedido. |
+| Factibilidad | Verificación de compatibilidad técnica, disponibilidad de materiales y capacidad para cumplir la fecha acordada. |
 
 **Regla principal:** «pedido confirmado» y «diseño aprobado» son **estados distintos**. La confirmación comercial no autoriza producir si el diseño final aún no fue aprobado.
 
@@ -212,7 +213,7 @@ flowchart TD
 | Cambios posteriores controlados | R-02 / R-11 | Nueva versión y notificación | Historial y confirmación |
 | Bloqueo de producción no autorizada | R-02 | Regla para no crear lote sin arte aprobado | Estado y referencia de aprobación |
 
-**Importante:** los controles están **propuestos** y deberán implementarse y probarse. Este procedimiento aún es un borrador, no una afirmación de ejecución empresarial.
+**Importante:** los controles están **propuestos** y deberán implementarse y probarse. Este procedimiento está aprobado para el proyecto académico; no afirma ejecución empresarial.
 
 ## 10. Registros, conservación y protección de datos
 
@@ -237,12 +238,13 @@ Los registros previstos incluyen pedidos, versiones de requisitos, conformidad d
 **Estado de esta lista:** son **criterios de verificación futuros**, no registros realizados. La aprobación de la **redacción documental** no significa que ya se procesaron pedidos ni que el sistema web esté funcionando.
 
 ### Revisión del apartado del roadmap
-- [ ] **2.8.1.** Procedimiento de recepción de pedidos: **redactado y publicado; pendiente de aprobación**.
+- [x] **2.8.1.** Procedimiento de recepción de pedidos: **aprobado para el proyecto académico**.
 
 ## 12. Control de versiones
 
 | Versión | Fecha | Cambio | Estado |
 |---|---|---|---|
 | 0.1 | 10/11/2026 | Redacción inicial del procedimiento de recepción de pedidos y controles | En revisión |
+| 1.0 | 18/11/2026 | Aprobación del usuario y precisión de las definiciones | Aprobado |
 
-**Siguiente entregable, después de aprobar PR-QP-001:** **PR-QP-002 — Procedimiento de producción DTF**, correspondiente a **2.8.2**.
+**Siguiente entregable:** [PR-QP-002 — Procedimiento de producción DTF](PR-QP-002_produccion_dtf.md), correspondiente a **2.8.2**.
