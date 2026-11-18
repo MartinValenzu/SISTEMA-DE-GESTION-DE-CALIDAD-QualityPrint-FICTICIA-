@@ -90,9 +90,9 @@ El operador debe comprobar y registrar:
 | 4. Aplicar adhesivo | Aplicar polvo compatible y retirar el exceso según instrucciones técnicas. | Cobertura de las áreas impresas, sin acumulaciones ni zonas sin adhesivo; si falla, separar film. |
 | 5. Curar adhesivo | Ejecutar el ciclo registrado de temperatura y tiempo autorizado. | Valores dentro del rango validado y acabado según ficha técnica; si falla, retener y evaluar. |
 | 6. Transferir primera pieza | Preparar la prenda, alinear diseño, aplicar parámetros de prensa y retirar film según su ficha técnica. | Calidad verifica diseño, posición, dimensiones, integridad y adherencia inicial conforme a especificaciones. No continuar hasta registrar aceptación. |
-| 7. Estampar lote | Repetir pasos 3–6 para las unidades restantes con la configuración aprobada; controlar cada transferencia y prenda. | Separar cada unidad defectuosa. Detener si cambia la configuración o aparece una desviación repetitiva. |
+| 7. Estampar lote | Repetir impresión, adhesivo, curado y transferencia para las unidades restantes con la configuración de la primera pieza aceptada; controlar cada film y prenda. | Separar cada unidad defectuosa. Detener si cambia la configuración o aparece una desviación repetitiva. |
 | 8. Acabado | Completar enfriamiento o estabilización y acabado según instrucciones. Si la combinación exige prensado final, realizarlo y registrarlo. | Sin daño visible ocasionado por el acabado; prendas identificadas y separadas de las retenidas. |
-| 9. Cierre del lote | Conciliar cantidades y registrar resultado, tiempo, incidencias y unidades retenidas en F-QP-003. Entregar a Calidad. | El total procesado concuerda con unidades aptas para inspección y retenidas; las pendientes quedan registradas. No despachar. |
+| 9. Cierre del lote | Conciliar cantidades y registrar resultado, tiempo, incidencias y unidades retenidas en F-QP-003. Entregar a Calidad. | El total procesado concuerda con unidades aptas para inspección, retenidas y descartadas; las pendientes quedan registradas. No despachar. |
 
 **Nueva primera pieza:** repetir y obtener aceptación de Calidad si cambia diseño, tejido, insumo, equipo o parámetro validado, o después de corregir un defecto que requiera modificar la configuración. Si se modifica el diseño, exigir antes una nueva aprobación del cliente.
 
@@ -153,10 +153,10 @@ Datos mínimos del lote (F-QP-003 previsto):
 - Operador, fecha y horas de inicio/cierre.
 - Equipos, referencia de las instrucciones validadas y parámetros utilizados.
 - Resultado y responsable de la aceptación de primera pieza.
-- Cantidades asignadas, procesadas, aptas para inspección, retenidas y pendientes; registrar aparte los retrabajos y sustituciones para evitar doble conteo.
+- Cantidades asignadas, procesadas, aptas para inspección, retenidas, descartadas y pendientes; registrar aparte los retrabajos y sustituciones para evitar doble conteo.
 - Incidencias, unidad afectada, decisión de Calidad y vínculo con el registro de no conformidad cuando aplique.
 
-Regla de conciliación: **unidades procesadas = unidades aptas para inspección + unidades retenidas** (cada unidad se cuenta una sola vez según su estado al cierre). Una unidad descartada se registra como retenida con disposición de descarte; no vuelve al lote apto. Las unidades pendientes no se registran como procesadas. La aceptación inicial no sustituye la liberación definitiva de PR-QP-003.
+Regla de conciliación: **unidades procesadas = unidades aptas para inspección + unidades retenidas + unidades descartadas** (cada unidad se cuenta una sola vez según su estado al cierre). Una unidad descartada requiere decisión documentada y no vuelve al lote apto. Las unidades pendientes no se registran como procesadas. La aceptación inicial no sustituye la liberación definitiva de PR-QP-003.
 
 ## 12. Criterios de verificación futura
 
