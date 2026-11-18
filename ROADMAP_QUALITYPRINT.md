@@ -1,8 +1,8 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.8  
-**Fecha:** 10/11/2026  
+**Versión:** 1.9  
+**Fecha:** 18/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
 **Actividad:** Personalización y estampado textil mediante DTF.
@@ -136,8 +136,10 @@
 
 ## 2.8. Procedimientos y formatos del SGC
 
-**Primer entregable en revisión:** [PR-QP-001 — Procedimiento de recepción de pedidos](docs/02_sgc/procedimientos/PR-QP-001_recepcion_de_pedidos.md). La casilla 2.8.1 permanecerá pendiente hasta su aprobación.
-- [ ] 2.8.1. Procedimiento de recepción de pedidos.
+**Entregable aprobado:** [PR-QP-001 — Procedimiento de recepción de pedidos](docs/02_sgc/procedimientos/PR-QP-001_recepcion_de_pedidos.md).
+
+**Entregable en revisión:** [PR-QP-002 — Procedimiento de producción DTF](docs/02_sgc/procedimientos/PR-QP-002_produccion_dtf.md). La casilla 2.8.2 permanecerá pendiente hasta su aprobación.
+- [x] 2.8.1. Procedimiento de recepción de pedidos.
 - [ ] 2.8.2. Procedimiento de producción DTF.
 - [ ] 2.8.3. Procedimiento de inspección de calidad.
 - [ ] 2.8.4. Procedimiento de gestión de no conformidades.
