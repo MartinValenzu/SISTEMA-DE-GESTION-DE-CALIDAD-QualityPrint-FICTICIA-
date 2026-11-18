@@ -4,14 +4,14 @@
 |---|---|
 | Código | PR-QP-002 |
 | Actividad | 2.8.2 — Procedimiento de producción DTF |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 18 de noviembre de 2026 |
-| Estado | **Borrador para revisión** |
+| Estado | **Aprobado para el proyecto académico** |
 | Empresa | QualityPrint (ficticia) |
 | Proceso | PO-02 — Producción DTF |
 | Responsable | Operador DTF |
 | Revisión | Control de calidad |
-| Aprobación del portafolio | Pendiente de revisión del usuario |
+| Aprobación del portafolio | Aprobado por el usuario del proyecto |
 
 > Procedimiento propuesto para el proyecto académico de una empresa con una impresora DTF y hasta cinco trabajadores. No acredita producción ejecutada ni parámetros técnicos validados.
 
@@ -172,12 +172,13 @@ Estos criterios se comprobarán en la simulación del proceso; no representan re
 
 ### Estado del roadmap
 
-- [ ] **2.8.2.** Procedimiento de producción DTF redactado y publicado; pendiente de aprobación.
+- [x] **2.8.2.** Procedimiento de producción DTF aprobado para el proyecto académico.
 
 ## 13. Control de versiones
 
 | Versión | Fecha | Cambio | Estado |
 |---|---|---|---|
 | 0.1 | 18/11/2026 | Procedimiento inicial, definiciones concretas, controles y registros de producción | En revisión |
+| 1.0 | 18/11/2026 | Aprobación del usuario | Aprobado |
 
-**Siguiente entregable:** PR-QP-003 — Procedimiento de inspección de calidad (2.8.3).
+**Siguiente entregable:** [PR-QP-003 — Procedimiento de inspección de calidad](PR-QP-003_inspeccion_de_calidad.md) (2.8.3).
