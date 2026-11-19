@@ -3,10 +3,10 @@
 | Campo documental | Información |
 |---|---|
 | Código | F-QP-006 |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 19/11/2026 |
 | Actividad | 2.8.10 — Registro de acciones correctivas |
-| Estado | **Plantilla en revisión** |
+| Estado | **Formato aprobado para el proyecto académico** |
 | Empresa | QualityPrint (ficticia) |
 | Proceso | PO-03 — Control de calidad |
 | Responsable | Control de calidad |
@@ -183,9 +183,10 @@ Si después del cierre se detecta una nueva NC asociada a la misma causa, evalua
 | Versión | Fecha | Descripción | Estado |
 |---|---|---|---|
 | 0.1 | 19/11/2026 | Plantilla inicial de análisis de causa, plan, ejecución, eficacia y cierre | En revisión |
+| 1.0 | 19/11/2026 | Aprobación del usuario | Aprobado |
 
-- [ ] **2.8.10.** Registro de acciones correctivas publicado; pendiente de aprobación.
+- [x] **2.8.10.** Registro de acciones correctivas aprobado para el proyecto académico.
 
-**Siguiente etapa tras la aprobación:** [Etapa 3 — Análisis de requisitos del software](../../../ROADMAP_QUALITYPRINT.md), actividad 3.1 — Identificación de usuarios.
+**Siguiente etapa:** [DOC-QP-010 — Identificación de usuarios, roles y permisos](../../03_requisitos/DOC-QP-010_usuarios_roles_y_permisos.md) (3.1).
 
 > Plantilla académica sin registros operativos reales. No acredita certificación del SGC.
