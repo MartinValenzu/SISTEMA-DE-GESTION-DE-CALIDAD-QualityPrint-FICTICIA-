@@ -118,7 +118,7 @@ Cada tabla posee `id:INTEGER` como clave primaria (PK). Los nombres físicos emp
 | `liberaciones` | Decisión de Calidad por pedido | `codigo:T`, `pedido_version_id:FK(pedido_versiones.id)`, `autorizacion_parcial_id:FK(autorizaciones_pedido.id)?`, `tipo:T`, `fecha:TS`, `calidad_id:FK(usuarios.id)`, `motivo:T?` | U(codigo); tipo completa,parcial,bloqueada; parcial requiere autorización vigente |
 | `liberacion_unidades` | Unidades específicas autorizadas | `liberacion_id:FK(liberaciones.id)`, `unidad_id:FK(unidades.id)`, `inspeccion_unidad_id:FK(inspeccion_unidades.id)`, `invalidada:TS?`, `invalidador_id:FK(usuarios.id)?`, `motivo_invalidacion:T?` | U(liberacion_id,unidad_id); U vigente(unidad_id) WHERE invalidada IS NULL; inspección misma unidad; no liberar unidad ya despachada |
 | `despachos` | Registro de despacho y recepción | `codigo:T`, `pedido_version_id:FK(pedido_versiones.id)`, `logistica_id:FK(usuarios.id)`, `fecha_despacho:TS`, `recibido_en:TS?`, `evidencia_despacho_id:FK(evidencias.id)`, `evidencia_entrega_id:FK(evidencias.id)?`, `modalidad:T`, `estado:T` | U(codigo); estados despachado,entregado; recibido y evidencia requeridos para entrega |
-| `despacho_unidades` | Unidad física despachada sin duplicados | `despacho_id:FK(despachos.id)`, `liberacion_unidad_id:FK(liberacion_unidades.id)`, `unidad_id:FK(unidades.id)` | U(unidad_id); U(despacho_id,liberacion_unidad_id); ambas referencias de la misma unidad; permiso vigente al despacho |
+| `despacho_unidades` | Unidad física despachada sin duplicados | `despacho_id:FK(despachos.id)`, `liberacion_unidad_id:FK(liberacion_unidades.id)`, `unidad_id:FK(unidades.id)`, `recibido_en:TS?`, `evidencia_entrega_id:FK(evidencias.id)?` | U(unidad_id); U(despacho_id,liberacion_unidad_id); ambas referencias de la misma unidad; permiso vigente al despacho; recepción individual exige evidencia |
 
 ### 4.2.2.5. No conformidades y acciones correctivas
 
@@ -151,7 +151,7 @@ Cada tabla posee `id:INTEGER` como clave primaria (PK). Los nombres físicos emp
 
 ## 4.2.4. Claves foráneas
 
-El diccionario especifica las **171 referencias FK**, todas con destino definido. Habilitar FK en cada conexión SQLite. Política de borrado RESTRICT/NO ACTION por defecto; no eliminar en cascada registros históricos. Desactivar cuentas/catálogos, cancelar pedidos e invalidar autorizaciones con eventos auditados.
+El diccionario especifica las **172 referencias FK**, todas con destino definido. Habilitar FK en cada conexión SQLite. Política de borrado RESTRICT/NO ACTION por defecto; no eliminar en cascada registros históricos. Desactivar cuentas/catálogos, cancelar pedidos e invalidar autorizaciones con eventos auditados.
 
 Las referencias genéricas de auditoría e idempotencia (entidad + ID) son técnicas descriptivas, no sustituyen las FK operativas. Evidencias guardan referencias o rutas privadas controladas, nunca contraseñas o secretos. Los archivos se gestionan fuera de la carpeta pública.
 
@@ -196,7 +196,7 @@ Las referencias genéricas de auditoría e idempotencia (entidad + ID) son técn
 
 Una inspección posterior a cambio puede evaluar una versión más nueva del mismo pedido si fue autorizada, vinculada a las mismas identidades de línea y reevaluada. Las configuraciones de lote conservan parámetros e instrucción exactos. Los campos que referencian distintos padres requieren validación de consistencia entre tablas; las FK simples no bastan.
 
-Antes de finalizar pedido, comparar con cantidades aceptadas vigentes por línea estable la suma de unidades efectivamente entregadas, sin duplicar IDs de entregas parciales anteriores. Fecha final: recepción confirmada del último grupo. Las entregas se agrupan de manera que cada registro de despacho tenga una misma fecha de recepción; cualquier recepción parcial se registra como grupo separado sin duplicar unidades físicas.
+Antes de finalizar pedido, comparar con cantidades aceptadas vigentes por línea estable la suma de unidades efectivamente entregadas, sin duplicar IDs de entregas parciales anteriores. Fecha final: recepción confirmada del último grupo. Cada unidad despachada registra su recepción y evidencia en despacho_unidades; una recepción parcial actualiza solo esas unidades. La cabecera del despacho se marca entregada al recibir todas sus unidades; su recibido_en refleja la última recepción. No se crea otro despacho por una recepción parcial.
 
 ## 4.2.6. Modelo entidad-relación
 
@@ -342,7 +342,7 @@ Aplicar fechas, corte histórico y metas de DOC-QP-011. Mostrar numerador, denom
 
 ### Índices de consulta iniciales
 
-Además de PK y UNIQUE: indexar FK frecuentes y filtros: pedidos(cliente_id, estado), pedido_versiones(pedido_id, revision), lotes(pedido_version_id, estado), unidades(lote_linea_id, estado_produccion), inspeccion_unidades(unidad_id, iniciada), defectos(evento_id, detectado), eventos_deteccion(estado, fecha_deteccion), no_conformidades(estado, prioridad, plazo), acciones_correctivas(estado), despachos(recibido_en), mantenimientos(fecha_original). Ajustar con mediciones RNF-22–25.
+Además de PK y UNIQUE: indexar FK frecuentes y filtros: pedidos(cliente_id, estado), pedido_versiones(pedido_id, revision), lotes(pedido_version_id, estado), unidades(lote_linea_id, estado_produccion), inspeccion_unidades(unidad_id, iniciada), defectos(evento_id, detectado), eventos_deteccion(estado, fecha_deteccion), no_conformidades(estado, prioridad, plazo), acciones_correctivas(estado), despacho_unidades(recibido_en), despachos(recibido_en), mantenimientos(fecha_original). Ajustar con mediciones RNF-22–25.
 
 ### Criterios de prueba futura
 
@@ -371,7 +371,7 @@ Además de PK y UNIQUE: indexar FK frecuentes y filtros: pedidos(cliente_id, est
 | RF-36–39 | AC, causas, planes y eficacia |
 | RF-40–48 | Indicadores, mantenimiento y panel derivados |
 
-**Revisión documental:** las 62 tablas se definen en el diccionario y las 171 FK apuntan a entidades existentes. Pendientes: aprobación, migraciones, comprobación física con SQLite y pruebas de integridad y rendimiento. No se declara implementado el esquema.
+**Revisión documental:** las 62 tablas se definen en el diccionario y las 172 FK apuntan a entidades existentes. Pendientes: aprobación, migraciones, comprobación física con SQLite y pruebas de integridad y rendimiento. No se declara implementado el esquema.
 
 ## 5. Estado del roadmap y control de cambios
 
