@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.18  
+**Versión:** 1.19  
 **Fecha:** 19/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -181,14 +181,16 @@
 
 ## 3.1. Identificación de usuarios
 
-**Documento en revisión:** [DOC-QP-010 — Identificación de usuarios, roles y permisos](docs/03_requisitos/DOC-QP-010_usuarios_roles_y_permisos.md). Las actividades 3.1.1–3.1.5 permanecerán pendientes hasta su aprobación.
-- [ ] 3.1.1. Definir el usuario administrador.
-- [ ] 3.1.2. Definir el gerente.
-- [ ] 3.1.3. Definir el responsable de calidad.
-- [ ] 3.1.4. Definir el operador de producción.
-- [ ] 3.1.5. Definir permisos y responsabilidades.
+**Documento aprobado:** [DOC-QP-010 — Identificación de usuarios, roles y permisos](docs/03_requisitos/DOC-QP-010_usuarios_roles_y_permisos.md).
+- [x] 3.1.1. Definir el usuario administrador.
+- [x] 3.1.2. Definir el gerente.
+- [x] 3.1.3. Definir el responsable de calidad.
+- [x] 3.1.4. Definir el operador de producción.
+- [x] 3.1.5. Definir permisos y responsabilidades.
 
 ## 3.2. Requisitos funcionales
+
+**Documento en revisión:** [DOC-QP-011 — Requisitos funcionales](docs/03_requisitos/DOC-QP-011_requisitos_funcionales.md). Las actividades 3.2.1–3.2.11 permanecen pendientes de aprobación.
 - [ ] 3.2.1. Gestión de usuarios.
 - [ ] 3.2.2. Gestión de clientes.
 - [ ] 3.2.3. Registro y consulta de pedidos.
