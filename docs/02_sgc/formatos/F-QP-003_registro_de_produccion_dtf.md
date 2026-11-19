@@ -50,7 +50,7 @@
 | Referencia de configuración técnica aprobada | |
 | Estado del lote (preparado / en producción / detenido / cerrado) | |
 
-Si cambia el diseño o tejido, registrar un lote nuevo. Si cambia un insumo, equipo o configuración técnica, detener y documentar una configuración nueva vinculada al lote; separar los tramos procesados y exigir una nueva primera pieza. Si el cambio impide mantener la homogeneidad del lote, abrir otro lote.
+Si cambia el diseño, tejido o la configuración técnica validada, cerrar o detener el lote anterior y abrir otro lote vinculado al mismo pedido. Si cambia un insumo o equipo sin modificar la configuración técnica validada, detener, verificar la compatibilidad, documentar el cambio y exigir una nueva primera pieza antes de continuar. Conservar los tramos anteriores.
 
 ## 3. Verificación previa al inicio
 
@@ -144,7 +144,7 @@ Registrar una fila por tramo de producción bajo una configuración aceptada. Id
 | | | | | | | | |
 | | | | | | | | |
 
-No contar como nueva unidad una prenda retrabajada. El seguimiento debe permitir conocer qué unidades fueron procesadas antes y después de un cambio.
+Registrar las unidades de primera pieza en la sección 6 y en el estado individual de la sección 9.2; incluirlas una sola vez en el total procesado. Los tramos de esta sección registran las unidades restantes. No contar como nueva unidad una prenda retrabajada. El seguimiento debe permitir conocer qué unidades fueron procesadas antes y después de un cambio.
 
 ## 8. Incidencias y retrabajos
 
@@ -219,7 +219,7 @@ No cerrar el registro con cantidades incoherentes. Un lote puede cerrarse parcia
 | Inicio | Bloquear si falta cualquier control obligatorio de la sección 3. |
 | Parámetros | Registrar configuración, origen del valor autorizado, unidad y valor observado. |
 | Primera pieza | Bloquear producción restante sin aceptación vigente de Calidad. |
-| Cambio técnico | Invalidar la autorización anterior para el tramo nuevo; exigir nueva aceptación y conservar historial. |
+| Cambio técnico | Invalidar la autorización anterior; exigir nueva primera pieza y abrir otro lote si cambia la configuración validada. |
 | Unidades | ID único por prenda, sin duplicar el conteo de retrabajos o reinspecciones. |
 | Cierre | Verificar ambas conciliaciones y conservar el estado individual de las unidades. |
 | Transferencia | Solo unidades aptas pasan a inspección final; nunca a despacho directo. |
