@@ -3,10 +3,10 @@
 | Campo documental | Información |
 |---|---|
 | Código | F-QP-005 |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 19/11/2026 |
 | Actividad | 2.8.9 — Registro de no conformidades |
-| Estado | **Plantilla en revisión** |
+| Estado | **Formato aprobado para el proyecto académico** |
 | Empresa | QualityPrint (ficticia) |
 | Proceso | PO-03 — Control de calidad |
 | Responsable | Control de calidad |
@@ -175,9 +175,10 @@ El futuro software deberá validar ID único, vínculo al evento original, campo
 | Versión | Fecha | Descripción | Estado |
 |---|---|---|---|
 | 0.1 | 19/11/2026 | Plantilla inicial de identificación, alcance, prioridad, tratamiento, verificación y cierre | En revisión |
+| 1.0 | 19/11/2026 | Aprobación del usuario | Aprobado |
 
-- [ ] **2.8.9.** Registro de no conformidades publicado; pendiente de aprobación.
+- [x] **2.8.9.** Registro de no conformidades aprobado para el proyecto académico.
 
-**Siguiente entregable:** F-QP-006 — Registro de acciones correctivas (2.8.10).
+**Siguiente entregable:** [F-QP-006 — Registro de acciones correctivas](F-QP-006_registro_de_acciones_correctivas.md) (2.8.10).
 
 > Plantilla académica sin registros operativos reales. No demuestra certificación del SGC.
