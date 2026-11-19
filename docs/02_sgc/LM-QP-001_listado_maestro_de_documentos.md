@@ -4,7 +4,7 @@
 |---|---|
 | Código | LM-QP-001 |
 | Tipo | Listado maestro de documentos del SGC simulado |
-| Versión | 1.7 |
+| Versión | 1.8 |
 | Fecha | 19 de noviembre de 2026 |
 | Estado | **Aprobado para el proyecto académico** |
 | Responsable propuesto | Control de calidad / administrador de la documentación |
@@ -25,7 +25,7 @@
 | DOC-QP-007 | Descripción del proceso de producción DTF | 1.0 | Aprobado | 10/11/2026 | Operación DTF / calidad | [Archivo](DOC-QP-007_proceso_de_produccion_DTF.md) |
 | DOC-QP-008 | Gestión de riesgos y oportunidades | 1.0 | Aprobado | 10/11/2026 | Gerencia / calidad | [Archivo](DOC-QP-008_gestion_de_riesgos_y_oportunidades.md) |
 | DOC-QP-009 | Gestión documental | 1.0 | Aprobado | 10/11/2026 | Calidad / responsable del proyecto | [Archivo](DOC-QP-009_gestion_documental.md) |
-| LM-QP-001 | Listado maestro de documentos | 1.7 | Vigente | 19/11/2026 | Calidad / custodio documental | [Este archivo](LM-QP-001_listado_maestro_de_documentos.md) |
+| LM-QP-001 | Listado maestro de documentos | 1.8 | Vigente | 19/11/2026 | Calidad / custodio documental | [Este archivo](LM-QP-001_listado_maestro_de_documentos.md) |
 | PR-QP-001 | Procedimiento de recepción de pedidos | 1.0 | Aprobado | 18/11/2026 | Comercial y diseño / calidad | [Archivo](procedimientos/PR-QP-001_recepcion_de_pedidos.md) |
 | PR-QP-002 | Procedimiento de producción DTF | 1.0 | Aprobado | 18/11/2026 | Operador DTF / calidad | [Archivo](procedimientos/PR-QP-002_produccion_dtf.md) |
 | PR-QP-003 | Procedimiento de inspección de calidad | 1.0 | Aprobado | 18/11/2026 | Control de calidad | [Archivo](procedimientos/PR-QP-003_inspeccion_de_calidad.md) |
@@ -33,9 +33,10 @@
 | F-QP-001 | Formato de recepción de pedidos | 1.0 | Aprobado | 18/11/2026 | Comercial y diseño | [Archivo](formatos/F-QP-001_recepcion_de_pedidos.md) |
 | F-QP-002 | Formato de inspección de materiales | 1.0 | Aprobado | 19/11/2026 | Operación DTF / calidad | [Archivo](formatos/F-QP-002_inspeccion_de_materiales.md) |
 | F-QP-003 | Registro de producción DTF | 1.0 | Aprobado | 19/11/2026 | Operación DTF / calidad | [Archivo](formatos/F-QP-003_registro_de_produccion_dtf.md) |
-| F-QP-004 | Formato de inspección final | 0.1 | En revisión | 19/11/2026 | Control de calidad | [Archivo](formatos/F-QP-004_inspeccion_final.md) |
+| F-QP-004 | Formato de inspección final | 1.0 | Aprobado | 19/11/2026 | Control de calidad | [Archivo](formatos/F-QP-004_inspeccion_final.md) |
+| F-QP-005 | Registro de no conformidades | 0.1 | En revisión | 19/11/2026 | Control de calidad | [Archivo](formatos/F-QP-005_registro_de_no_conformidades.md) |
 
-**Comprobación de vigencia:** DOC-QP-001 a DOC-QP-009, PR-QP-001 a PR-QP-004 y F-QP-001 a F-QP-003 están aprobados para el proyecto académico; LM-QP-001 conserva su aprobación. F-QP-004 es una plantilla en revisión.
+**Comprobación de vigencia:** DOC-QP-001 a DOC-QP-009, PR-QP-001 a PR-QP-004 y F-QP-001 a F-QP-004 están aprobados para el proyecto académico; LM-QP-001 conserva su aprobación. F-QP-005 es una plantilla en revisión.
 
 ## 2. Archivos operativos del repositorio (sin código retrospectivo)
 
@@ -53,7 +54,6 @@ Los códigos siguientes son **reservas orientativas**: aún no existen como docu
 
 | Código propuesto | Nombre del entregable | Apartado del roadmap | Estado |
 |---|---|---|---|
-| F-QP-005 | Registro de no conformidades (plantilla) | 2.8.9 | Previsto |
 | F-QP-006 | Registro de acciones correctivas (plantilla) | 2.8.10 | Previsto |
 
 **Regla:** ningún elemento previsto se marcará como completado hasta que exista el archivo, se revise y se apruebe. Una plantilla vacía no constituye evidencia de inspección o de acciones ejecutadas.
@@ -78,6 +78,7 @@ Los códigos siguientes son **reservas orientativas**: aún no existen como docu
 | 1.4 | 18/11/2026 | Actualización administrativa: PR-QP-004 aprobado y F-QP-001 en revisión | Sustituido |
 | 1.5 | 18/11/2026 | F-QP-001 aprobado y F-QP-002 registrado en revisión | Sustituido |
 | 1.6 | 19/11/2026 | F-QP-002 aprobado, F-QP-003 en revisión y ajuste de tabla | Sustituido |
-| 1.7 | 19/11/2026 | F-QP-003 aprobado y F-QP-004 en revisión | Vigente |
+| 1.7 | 19/11/2026 | F-QP-003 aprobado y F-QP-004 en revisión | Sustituido |
+| 1.8 | 19/11/2026 | F-QP-004 aprobado y F-QP-005 en revisión | Vigente |
 
-**Próximo evento:** revisión de F-QP-004, seguida por actualización de este listado.
+**Próximo evento:** revisión de F-QP-005, seguida por actualización de este listado.
