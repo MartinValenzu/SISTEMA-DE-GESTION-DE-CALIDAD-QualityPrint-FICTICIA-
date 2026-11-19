@@ -32,7 +32,9 @@
 
 - [F-QP-002 — Inspección de materiales](formatos/F-QP-002_inspeccion_de_materiales.md): actividad 2.8.6; **aprobado**.
 
-- [F-QP-003 — Registro de producción DTF](formatos/F-QP-003_registro_de_produccion_dtf.md): actividad 2.8.7; **plantilla pendiente de revisión y aprobación**.
+- [F-QP-003 — Registro de producción DTF](formatos/F-QP-003_registro_de_produccion_dtf.md): actividad 2.8.7; **aprobado**.
+
+- [F-QP-004 — Formato de inspección final](formatos/F-QP-004_inspeccion_final.md): actividad 2.8.8; **plantilla pendiente de revisión y aprobación**.
 
 ## Próximas actividades
 
@@ -42,7 +44,8 @@
 - **2.8.4. Gestión de no conformidades:** aprobado.
 - **2.8.5. Formato de recepción de pedidos:** aprobado.
 - **2.8.6. Formato de inspección de materiales:** aprobado.
-- **2.8.7. Registro de producción DTF:** publicado para revisión.
-- **2.8.8–2.8.10:** formatos restantes pendientes.
+- **2.8.7. Registro de producción DTF:** aprobado.
+- **2.8.8. Formato de inspección final:** publicado para revisión.
+- **2.8.9–2.8.10:** formatos restantes pendientes.
 
 Consulta el [ROADMAP](../../ROADMAP_QUALITYPRINT.md) antes de marcar una casilla como terminada.
