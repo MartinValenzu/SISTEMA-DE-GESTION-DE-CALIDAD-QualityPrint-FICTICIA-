@@ -1,6 +1,6 @@
 # Documentación de la empresa y del SGC
 
-**Estado:** Etapa 2 en elaboración.
+**Estado:** Etapa 2 completada (56/56 actividades aprobadas).
 
 ## Documentos
 
@@ -38,9 +38,9 @@
 
 - [F-QP-005 — Registro de no conformidades](formatos/F-QP-005_registro_de_no_conformidades.md): actividad 2.8.9; **aprobado**.
 
-- [F-QP-006 — Registro de acciones correctivas](formatos/F-QP-006_registro_de_acciones_correctivas.md): actividad 2.8.10; **plantilla pendiente de revisión y aprobación**.
+- [F-QP-006 — Registro de acciones correctivas](formatos/F-QP-006_registro_de_acciones_correctivas.md): actividad 2.8.10; **aprobado**.
 
-## Próximas actividades
+## Actividades aprobadas
 
 - **2.8.1. Recepción de pedidos:** aprobado.
 - **2.8.2. Producción DTF:** aprobado.
@@ -51,6 +51,8 @@
 - **2.8.7. Registro de producción DTF:** aprobado.
 - **2.8.8. Formato de inspección final:** aprobado.
 - **2.8.9. Registro de no conformidades:** aprobado.
-- **2.8.10. Registro de acciones correctivas:** publicado para revisión; último entregable de la etapa 2.
+- **2.8.10. Registro de acciones correctivas:** aprobado; último entregable de la etapa 2.
+
+Siguiente etapa: [Análisis de requisitos del software](../03_requisitos/README.md).
 
 Consulta el [ROADMAP](../../ROADMAP_QUALITYPRINT.md) antes de marcar una casilla como terminada.
