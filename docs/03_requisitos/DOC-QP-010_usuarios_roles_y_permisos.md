@@ -4,13 +4,13 @@
 |---|---|
 | Código | DOC-QP-010 |
 | Apartado | 3.1 — Identificación de usuarios |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 19/11/2026 |
-| Estado | **En revisión** |
+| Estado | **Aprobado para el proyecto académico** |
 | Proyecto | QualityPrint — Aplicación web de gestión de calidad |
 | Elaboración | Responsable del proyecto |
 | Revisión propuesta | Gerencia y Control de calidad |
-| Aprobación del portafolio | Pendiente de confirmación del usuario |
+| Aprobación del portafolio | Aprobado por el usuario del proyecto |
 
 ## 1. Objetivo y alcance
 
@@ -164,18 +164,19 @@ Estas son condiciones de aceptación de la futura aplicación; no se declara que
 
 ## 4. Estado del roadmap
 
-- [ ] 3.1.1. Definir el usuario administrador.
-- [ ] 3.1.2. Definir el gerente.
-- [ ] 3.1.3. Definir el responsable de calidad.
-- [ ] 3.1.4. Definir el operador de producción.
-- [ ] 3.1.5. Definir permisos y responsabilidades.
+- [x] 3.1.1. Definir el usuario administrador.
+- [x] 3.1.2. Definir el gerente.
+- [x] 3.1.3. Definir el responsable de calidad.
+- [x] 3.1.4. Definir el operador de producción.
+- [x] 3.1.5. Definir permisos y responsabilidades.
 
-Todos los apartados están redactados y pendientes de aprobación.
+Los cinco apartados han sido aprobados para el proyecto académico.
 
 ## 5. Control de cambios
 
 | Versión | Fecha | Descripción | Estado |
 |---|---|---|---|
 | 0.1 | 19/11/2026 | Identificación de usuarios, roles, matriz de permisos y criterios de autorización | En revisión |
+| 1.0 | 19/11/2026 | Aprobación del usuario | Aprobado |
 
-**Siguiente apartado:** 3.2 — Requisitos funcionales del software.
+**Siguiente apartado:** [DOC-QP-011 — Requisitos funcionales del software](DOC-QP-011_requisitos_funcionales.md) (3.2).
