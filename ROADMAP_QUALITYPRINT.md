@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.16  
+**Versión:** 1.17  
 **Fecha:** 19/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -150,9 +150,9 @@
 
 **Entregable aprobado:** [F-QP-003 — Registro de producción DTF](docs/02_sgc/formatos/F-QP-003_registro_de_produccion_dtf.md).
 
-**Entregable aprobado:** [F-QP-004 — Formato de inspección final](docs/02_sgc/formatos/F-QP-004_inspeccion_final.md).
+**Entregable aprobado:** [F-QP-005 — Registro de no conformidades](docs/02_sgc/formatos/F-QP-005_registro_de_no_conformidades.md).
 
-**Entregable en revisión:** [F-QP-005 — Registro de no conformidades](docs/02_sgc/formatos/F-QP-005_registro_de_no_conformidades.md). La casilla 2.8.9 permanecerá pendiente hasta su aprobación.
+**Entregable en revisión:** [F-QP-006 — Registro de acciones correctivas](docs/02_sgc/formatos/F-QP-006_registro_de_acciones_correctivas.md). La casilla 2.8.10 y el cierre de la etapa 2 permanecerán pendientes hasta su aprobación.
 - [x] 2.8.1. Procedimiento de recepción de pedidos.
 - [x] 2.8.2. Procedimiento de producción DTF.
 - [x] 2.8.3. Procedimiento de inspección de calidad.
@@ -161,7 +161,7 @@
 - [x] 2.8.6. Formato de inspección de materiales.
 - [x] 2.8.7. Registro de producción DTF.
 - [x] 2.8.8. Formato de inspección final.
-- [ ] 2.8.9. Registro de no conformidades.
+- [x] 2.8.9. Registro de no conformidades.
 - [ ] 2.8.10. Registro de acciones correctivas.
 
 **Entregables de la etapa:**
