@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.20  
+**Versión:** 1.21  
 **Fecha:** 19/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -205,16 +205,18 @@
 
 ## 3.3. Requisitos no funcionales
 
-**Documento en revisión:** [DOC-QP-012 — Requisitos no funcionales](docs/03_requisitos/DOC-QP-012_requisitos_no_funcionales.md). Las actividades 3.3.1–3.3.7 permanecen pendientes de aprobación.
-- [ ] 3.3.1. Seguridad de acceso.
-- [ ] 3.3.2. Facilidad de uso.
-- [ ] 3.3.3. Diseño adaptable a diferentes pantallas.
-- [ ] 3.3.4. Integridad de la información.
-- [ ] 3.3.5. Rendimiento.
-- [ ] 3.3.6. Copias de seguridad.
-- [ ] 3.3.7. Mantenibilidad del código.
+**Documento aprobado:** [DOC-QP-012 — Requisitos no funcionales](docs/03_requisitos/DOC-QP-012_requisitos_no_funcionales.md).
+- [x] 3.3.1. Seguridad de acceso.
+- [x] 3.3.2. Facilidad de uso.
+- [x] 3.3.3. Diseño adaptable a diferentes pantallas.
+- [x] 3.3.4. Integridad de la información.
+- [x] 3.3.5. Rendimiento.
+- [x] 3.3.6. Copias de seguridad.
+- [x] 3.3.7. Mantenibilidad del código.
 
 ## 3.4. Análisis del funcionamiento
+
+**Documento en revisión:** [DOC-QP-013 — Análisis del funcionamiento](docs/03_requisitos/DOC-QP-013_analisis_del_funcionamiento.md). Las actividades 3.4.1–3.4.5 y el cierre de la etapa 3 permanecen pendientes de aprobación.
 - [ ] 3.4.1. Definir el flujo general del sistema.
 - [ ] 3.4.2. Elaborar casos de uso.
 - [ ] 3.4.3. Describir los escenarios principales.
