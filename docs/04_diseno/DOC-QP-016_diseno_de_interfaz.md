@@ -4,13 +4,13 @@
 |---|---|
 | Código | DOC-QP-016 |
 | Apartado | 4.3 — Diseño de interfaz |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 19/11/2026 |
-| Estado | **En revisión** |
+| Estado | **Aprobado para el proyecto académico** |
 | Proyecto | QualityPrint-SGC (empresa ficticia) |
 | Elaboración | Responsable del proyecto |
 | Revisión propuesta | Responsable del proyecto / Control de calidad |
-| Aprobación del portafolio | Pendiente de confirmación del usuario |
+| Aprobación del portafolio | Confirmada por el usuario el 19/11/2026 |
 
 ## 1. Objetivo
 
@@ -229,22 +229,23 @@ Los botones no autorizados no se muestran. Un botón del rol autorizado pero tem
 | NC y AC | RF-32–39 |
 | Validaciones, historial y mensajes | RNF-09,12,16–20 |
 
-- [ ] 4.3.1. Definir identidad visual.
-- [ ] 4.3.2. Diseñar menú de navegación.
-- [ ] 4.3.3. Diseñar dashboard.
-- [ ] 4.3.4. Diseñar módulo de pedidos.
-- [ ] 4.3.5. Diseñar módulo de producción.
-- [ ] 4.3.6. Diseñar módulo de inspecciones.
-- [ ] 4.3.7. Diseñar módulo de no conformidades.
-- [ ] 4.3.8. Diseñar formularios, tablas y filtros.
-- [ ] 4.3.9. Revisar experiencia de usuario — revisión de diseño documental y prototipo; validación visual final pendiente.
+- [x] 4.3.1. Definir identidad visual.
+- [x] 4.3.2. Diseñar menú de navegación.
+- [x] 4.3.3. Diseñar dashboard.
+- [x] 4.3.4. Diseñar módulo de pedidos.
+- [x] 4.3.5. Diseñar módulo de producción.
+- [x] 4.3.6. Diseñar módulo de inspecciones.
+- [x] 4.3.7. Diseñar módulo de no conformidades.
+- [x] 4.3.8. Diseñar formularios, tablas y filtros.
+- [x] 4.3.9. Revisar experiencia de usuario — revisión de diseño documental y prototipo; validación visual final pendiente.
 
-Una vez aprobado este diseño se cerrará la etapa 4 como diseño documental; las pruebas de visualización e implementación se completarán en etapas 6 y 7. El prototipo no sustituye la aplicación Flask ni sus controles.
+Con la aprobación de este diseño se cierra la etapa 4 como diseño documental; las pruebas de visualización e implementación se completarán en etapas 6 y 7. El prototipo no sustituye la aplicación Flask ni sus controles.
 
 ## 6. Control de cambios
 
 | Versión | Fecha | Descripción | Estado |
 |---|---|---|---|
-| 0.1 | 19/11/2026 | Identidad visual, navegación, pantallas, componentes, criterios UX y prototipo HTML | En revisión |
+| 0.1 | 19/11/2026 | Identidad visual, navegación, pantallas, componentes, criterios UX y prototipo HTML | Sustituido |
+| 1.0 | 19/11/2026 | Diseño de interfaz aprobado; validación visual de la implementación pendiente | Vigente |
 
-**Siguiente etapa:** [Etapa 5 — Preparación del entorno de desarrollo](../../ROADMAP_QUALITYPRINT.md) (5.1 — Herramientas).
+**Siguiente etapa:** [DOC-QP-017 — Preparación de herramientas](../05_entorno/DOC-QP-017_preparacion_de_herramientas.md).
