@@ -23,7 +23,7 @@ Registrar cada incumplimiento confirmado desde su detección hasta su cierre, id
 | No conformidad (NC) | Incumplimiento demostrado de un requisito aplicable al producto, material, proceso o servicio. |
 | Evento de detección | Hallazgo identificado en una fuente independiente, que permite rastrear cuándo y dónde se detectó el incumplimiento. |
 | Contención | Medida inmediata que impide utilizar, procesar o entregar elementos afectados. |
-| Disposición | Decisión sobre el tratamiento del elemento afectado: corrección/retrabajo, reposición, devolución o descarte. |
+| Disposición | Decisión sobre el tratamiento del elemento afectado: corrección documental, retrabajo, reposición, devolución o descarte. |
 | Corrección | Acción que elimina el incumplimiento detectado en el caso concreto. |
 | Acción correctiva (AC) | Acción dirigida a eliminar la causa de una NC para impedir su repetición. |
 | Verificación | Comprobación documentada de que el tratamiento se ejecutó y cumple el requisito aplicable. |
@@ -76,8 +76,8 @@ Si el evento afecta unidades de distinta naturaleza (por ejemplo, prendas y mate
 | Prioridad | Criterio de asignación | Respuesta inmediata |
 |---|---|---|
 | Crítica | Riesgo para personas, operación insegura o entrega sin liberación. | Detener la actividad afectada, contener y notificar inmediatamente a Gerencia y Calidad. |
-| Mayor | Incumplimiento de requisito del cliente, varias unidades afectadas, pérdida de trazabilidad o repetición. | Bloquear lo afectado, notificar antes de continuar y evaluar la causa. |
-| Menor | Caso aislado sin impacto en seguridad, trazabilidad ni requisitos del cliente. | Contener, registrar y corregir. |
+| Mayor | Incumplimiento de requisito del cliente, varias unidades afectadas, pérdida de trazabilidad o repetición. | Bloquear lo afectado, notificar a Calidad antes de continuar y evaluar la causa. |
+| Menor | Caso aislado sin impacto en seguridad, trazabilidad ni requisitos del cliente. | Registrar, contener cuando aplique y corregir antes de cerrar. |
 
 Seleccionar la prioridad más alta aplicable.
 
@@ -99,15 +99,15 @@ La comunicación posterior a la entrega no sustituye el historial original del p
 |---|---|---|---|---|---|
 | | | | | | |
 
-Disposiciones permitidas: corrección/retrabajo, reposición, devolución o descarte. Registrar autorización y fecha de decisión:
+Disposiciones permitidas: corrección documental, retrabajo, reposición, devolución o descarte. Registrar autorización y fecha de decisión:
 
 | Campo | Dato |
 |---|---|
-| Responsable que autoriza la disposición | |
+| Responsable de Calidad que autoriza la disposición | |
 | Fecha de autorización | |
 | Justificación de la decisión | |
 
-No liberar ni entregar unidades que continúen incumpliendo requisitos. La reposición no elimina la trazabilidad del elemento original. Los totales de disposición deben cubrir el alcance afectado, sin duplicar unidades; si quedan pendientes, identificarlas expresamente.
+No liberar ni entregar unidades que continúen incumpliendo requisitos. En una reposición, identificar la unidad nueva y el destino de la original. En una corrección documental, conservar el valor anterior, el cambio, la fecha y el responsable. Los totales de disposición deben cubrir el alcance afectado, sin duplicar unidades; si quedan pendientes, identificarlas expresamente.
 
 ### 4.5. Verificación del tratamiento
 
@@ -115,7 +115,7 @@ No liberar ni entregar unidades que continúen incumpliendo requisitos. La repos
 |---|---|---|---|---|
 | | | | | |
 
-Para retrabajos y reposiciones de prendas, registrar la reinspección en F-QP-004 antes de autorizar la liberación. Para devoluciones o descartes, verificar la ejecución y la segregación o baja correspondiente. Si persiste el incumplimiento, mantener bloqueado el elemento y retornar a tratamiento.
+Para retrabajos y reposiciones de prendas, registrar la reinspección en F-QP-004 antes de autorizar la liberación. Para devoluciones o descartes, verificar la ejecución y la segregación o baja correspondiente. Para correcciones documentales, verificar el registro corregido y su historial. Si persiste el incumplimiento, mantener bloqueado el elemento y retornar a tratamiento.
 
 ### 4.6. Decisión sobre acción correctiva
 
