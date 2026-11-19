@@ -4,13 +4,13 @@
 |---|---|
 | Código | DOC-QP-014 |
 | Apartado | 4.1 — Diseño de arquitectura |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 19/11/2026 |
-| Estado | **En revisión** |
+| Estado | **Aprobado para el proyecto académico** |
 | Proyecto | QualityPrint-SGC (empresa ficticia) |
 | Elaboración | Responsable del proyecto |
 | Revisión propuesta | Responsable del proyecto / Control de calidad |
-| Aprobación del portafolio | Pendiente de confirmación del usuario |
+| Aprobación del portafolio | Aprobado por el usuario del proyecto |
 
 ## 1. Objetivo y alcance
 
@@ -277,13 +277,14 @@ Las decisiones técnicas se comprobarán contra los documentos aprobados. Los l�
 
 ## 6. Estado del roadmap y control de cambios
 
-- [ ] 4.1.1. Definir arquitectura general.
-- [ ] 4.1.2. Diseñar la comunicación frontend/backend.
-- [ ] 4.1.3. Definir la conexión con la base de datos.
-- [ ] 4.1.4. Elaborar el diagrama de arquitectura.
+- [x] 4.1.1. Definir arquitectura general.
+- [x] 4.1.2. Diseñar la comunicación frontend/backend.
+- [x] 4.1.3. Definir la conexión con la base de datos.
+- [x] 4.1.4. Elaborar el diagrama de arquitectura.
 
 | Versión | Fecha | Descripción | Estado |
 |---|---|---|---|
 | 0.1 | 19/11/2026 | Arquitectura modular, comunicación HTTP, persistencia, seguridad y diagramas | En revisión |
+| 1.0 | 19/11/2026 | Aprobación del usuario | Aprobado |
 
-**Siguiente apartado:** 4.2 — Diseño de base de datos (entidades, atributos, claves, relaciones y modelo entidad-relación).
+**Siguiente apartado:** [DOC-QP-015 — Diseño de base de datos](DOC-QP-015_diseno_de_base_de_datos.md) (4.2).
