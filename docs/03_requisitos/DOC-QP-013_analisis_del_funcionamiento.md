@@ -4,13 +4,13 @@
 |---|---|
 | Código | DOC-QP-013 |
 | Apartado | 3.4 — Análisis del funcionamiento |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 19/11/2026 |
-| Estado | **En revisión** |
+| Estado | **Aprobado para el proyecto académico** |
 | Proyecto | QualityPrint-SGC (empresa ficticia) |
 | Elaboración | Responsable del proyecto |
 | Revisión propuesta | Gerencia y Control de calidad |
-| Aprobación del portafolio | Pendiente de confirmación del usuario |
+| Aprobación del portafolio | Aprobado por el usuario del proyecto |
 
 ## 1. Objetivo
 
@@ -203,20 +203,21 @@ Los bloqueos de seguridad y de calidad aplicables a cada incremento no se pospon
 
 ## 4. Validación documental y siguiente etapa
 
-- [ ] 3.4.1. Definir el flujo general del sistema.
-- [ ] 3.4.2. Elaborar casos de uso.
-- [ ] 3.4.3. Describir los escenarios principales.
-- [ ] 3.4.4. Definir reglas de negocio.
-- [ ] 3.4.5. Establecer prioridades de funcionalidades.
+- [x] 3.4.1. Definir el flujo general del sistema.
+- [x] 3.4.2. Elaborar casos de uso.
+- [x] 3.4.3. Describir los escenarios principales.
+- [x] 3.4.4. Definir reglas de negocio.
+- [x] 3.4.5. Establecer prioridades de funcionalidades.
 
 **Resumen:** 18 casos de uso, 8 escenarios principales, 23 reglas de negocio y 6 incrementos de construcción. Los 48 RF quedan vinculados a casos de uso y a un incremento; los 33 RNF mantienen sus criterios de aceptación.
 
-Una vez aprobado DOC-QP-013, se cerrará la etapa 3. La etapa 4 definirá la arquitectura (4.1), el modelo de datos (4.2) y la interfaz (4.3). Este documento no define aún tablas físicas, código ni pantallas implementadas.
+Con la aprobación de DOC-QP-013 se cierra la etapa 3 (28/28 actividades). La etapa 4 definirá la arquitectura (4.1), el modelo de datos (4.2) y la interfaz (4.3). Este documento no define aún tablas físicas, código ni pantallas implementadas.
 
 ## 5. Control de cambios
 
 | Versión | Fecha | Descripción | Estado |
 |---|---|---|---|
 | 0.1 | 19/11/2026 | Flujos, casos de uso, escenarios, reglas y prioridades trazables a requisitos | En revisión |
+| 1.0 | 19/11/2026 | Aprobación del usuario | Aprobado |
 
-**Siguiente etapa:** [Etapa 4 — Diseño del software y base de datos](../../ROADMAP_QUALITYPRINT.md), apartado 4.1 — Diseño de arquitectura.
+**Siguiente etapa:** [DOC-QP-014 — Diseño de arquitectura](../04_diseno/DOC-QP-014_diseno_de_arquitectura.md) (4.1).
