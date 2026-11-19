@@ -4,13 +4,13 @@
 |---|---|
 | Código | DOC-QP-012 |
 | Apartado | 3.3 — Requisitos no funcionales |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 19/11/2026 |
-| Estado | **En revisión** |
+| Estado | **Aprobado para el proyecto académico** |
 | Proyecto | QualityPrint-SGC (empresa ficticia) |
 | Elaboración | Responsable del proyecto |
 | Revisión propuesta | Gerencia y Control de calidad |
-| Aprobación del portafolio | Pendiente de confirmación del usuario |
+| Aprobación del portafolio | Aprobado por el usuario del proyecto |
 
 ## 1. Objetivo y alcance
 
@@ -116,16 +116,17 @@ RPO: pérdida máxima de datos admitida, expresada como intervalo temporal. RTO:
 
 ## 5. Estado del roadmap y control de cambios
 
-- [ ] 3.3.1. Seguridad de acceso.
-- [ ] 3.3.2. Facilidad de uso.
-- [ ] 3.3.3. Diseño adaptable a diferentes pantallas.
-- [ ] 3.3.4. Integridad de la información.
-- [ ] 3.3.5. Rendimiento.
-- [ ] 3.3.6. Copias de seguridad.
-- [ ] 3.3.7. Mantenibilidad del código.
+- [x] 3.3.1. Seguridad de acceso.
+- [x] 3.3.2. Facilidad de uso.
+- [x] 3.3.3. Diseño adaptable a diferentes pantallas.
+- [x] 3.3.4. Integridad de la información.
+- [x] 3.3.5. Rendimiento.
+- [x] 3.3.6. Copias de seguridad.
+- [x] 3.3.7. Mantenibilidad del código.
 
 | Versión | Fecha | Descripción | Estado |
 |---|---|---|---|
 | 0.1 | 19/11/2026 | 33 requisitos no funcionales y criterios medibles de aceptación | En revisión |
+| 1.0 | 19/11/2026 | Aprobación del usuario | Aprobado |
 
-**Siguiente apartado:** 3.4 — Análisis del funcionamiento.
+**Siguiente apartado:** [DOC-QP-013 — Análisis del funcionamiento](DOC-QP-013_analisis_del_funcionamiento.md) (3.4).
