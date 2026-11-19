@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.22  
+**Versión:** 1.23  
 **Fecha:** 19/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -237,13 +237,15 @@
 
 ## 4.1. Diseño de arquitectura
 
-**Documento en revisión:** [DOC-QP-014 — Diseño de arquitectura](docs/04_diseno/DOC-QP-014_diseno_de_arquitectura.md). Las actividades 4.1.1–4.1.4 permanecen pendientes de aprobación.
-- [ ] 4.1.1. Definir arquitectura general.
-- [ ] 4.1.2. Diseñar la comunicación frontend/backend.
-- [ ] 4.1.3. Definir la conexión con la base de datos.
-- [ ] 4.1.4. Elaborar el diagrama de arquitectura.
+**Documento aprobado:** [DOC-QP-014 — Diseño de arquitectura](docs/04_diseno/DOC-QP-014_diseno_de_arquitectura.md).
+- [x] 4.1.1. Definir arquitectura general.
+- [x] 4.1.2. Diseñar la comunicación frontend/backend.
+- [x] 4.1.3. Definir la conexión con la base de datos.
+- [x] 4.1.4. Elaborar el diagrama de arquitectura.
 
 ## 4.2. Diseño de base de datos
+
+**Documento en revisión:** [DOC-QP-015 — Diseño de base de datos](docs/04_diseno/DOC-QP-015_diseno_de_base_de_datos.md). Las actividades 4.2.1–4.2.7 permanecen pendientes de aprobación.
 - [ ] 4.2.1. Identificar entidades.
 - [ ] 4.2.2. Definir atributos.
 - [ ] 4.2.3. Definir claves primarias.
