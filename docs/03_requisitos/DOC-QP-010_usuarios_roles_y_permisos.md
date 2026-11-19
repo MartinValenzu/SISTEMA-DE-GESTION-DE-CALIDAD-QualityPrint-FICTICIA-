@@ -122,7 +122,8 @@ El cliente y el proveedor intervienen en el proceso empresarial, pero **no tendr
 | Verificar eficacia y autorizar cierre de NC/AC | — | C | A | C* | C* | C* |
 | Registrar empaque y despacho | — | C | C | — | C* | E |
 | Consultar indicadores y dashboard | — | C | C | C* | C* | C* |
-| Consultar eventos de seguridad / copias de seguridad | E | C** | — | — | — | — |
+| Consultar eventos de seguridad | C | C** | — | — | — | — |
+| Gestionar copias de seguridad | E | C** | — | — | — | — |
 
 \* Acceso limitado: Producción consulta especificaciones técnicas y registros de sus lotes; Comercial consulta el avance de sus pedidos y reclamaciones; Logística consulta datos necesarios de insumos y entregas. En ejecución de disposición o AC, registrar solo las tareas asignadas. Los paneles operativos muestran únicamente datos de la función/alcance permitido (sin contactos de clientes innecesarios).
  
@@ -141,7 +142,9 @@ El cliente y el proveedor intervienen en el proceso empresarial, pero **no tendr
 | PER-07 | Registrar actor, fecha, operación, registro afectado y cambios de estado, así como valores anteriores y motivo de correcciones relevantes. Desactivar cuentas en lugar de eliminarlas. |
 | PER-08 | Usuarios con varios roles reciben las operaciones de sus roles autorizados, excepto cuando exista conflicto de separación de responsabilidades: prevalece la restricción. No se permiten cambios autoautorizados de privilegios. |
 
-El rol ADMIN no es una cuenta empresarial con acceso ilimitado. Las asignaciones de roles y las autorizaciones de Gerencia quedan registradas. La gestión inicial de la primera cuenta ADMIN se definirá en la etapa 5 mediante un procedimiento de inicialización controlado.
+El rol ADMIN no es una cuenta empresarial con acceso ilimitado. Las asignaciones de roles y las autorizaciones de Gerencia quedan registradas. Si la persona que ejecuta una AC también tiene CALIDAD, Gerencia deberá designar otra persona competente con el rol CALIDAD para verificarla; mientras no exista verificador independiente, la AC permanece pendiente. Esta asignación tampoco permite liberar un lote producido por esa misma persona.
+
+La gestión inicial de la primera cuenta ADMIN se definirá en la etapa 5 mediante un procedimiento de inicialización controlado.
 
 ### 3.1.5.4. Criterios de aceptación para pruebas futuras
 
