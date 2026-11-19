@@ -4,13 +4,13 @@
 |---|---|
 | Código | DOC-QP-015 |
 | Apartado | 4.2 — Diseño de base de datos |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 19/11/2026 |
-| Estado | **En revisión** |
+| Estado | **Aprobado para el proyecto académico** |
 | Proyecto | QualityPrint-SGC (empresa ficticia) |
 | Elaboración | Responsable del proyecto |
 | Revisión propuesta | Responsable del proyecto / Control de calidad |
-| Aprobación del portafolio | Pendiente de confirmación del usuario |
+| Aprobación del portafolio | Aprobado por el usuario del proyecto |
 
 ## 1. Objetivo y alcance
 
@@ -371,20 +371,21 @@ Además de PK y UNIQUE: indexar FK frecuentes y filtros: pedidos(cliente_id, est
 | RF-36–39 | AC, causas, planes y eficacia |
 | RF-40–48 | Indicadores, mantenimiento y panel derivados |
 
-**Revisión documental:** las 62 tablas se definen en el diccionario y las 172 FK apuntan a entidades existentes. Pendientes: aprobación, migraciones, comprobación física con SQLite y pruebas de integridad y rendimiento. No se declara implementado el esquema.
+**Revisión documental:** las 62 tablas se definen en el diccionario y las 172 FK apuntan a entidades existentes. Diseño aprobado por el usuario. Pendientes: migraciones, comprobación física con SQLite y pruebas de integridad y rendimiento. No se declara implementado el esquema.
 
 ## 5. Estado del roadmap y control de cambios
 
-- [ ] 4.2.1. Identificar entidades.
-- [ ] 4.2.2. Definir atributos.
-- [ ] 4.2.3. Definir claves primarias.
-- [ ] 4.2.4. Definir claves foráneas.
-- [ ] 4.2.5. Establecer relaciones.
-- [ ] 4.2.6. Elaborar el modelo entidad-relación.
-- [ ] 4.2.7. Revisar la estructura de la base de datos.
+- [x] 4.2.1. Identificar entidades.
+- [x] 4.2.2. Definir atributos.
+- [x] 4.2.3. Definir claves primarias.
+- [x] 4.2.4. Definir claves foráneas.
+- [x] 4.2.5. Establecer relaciones.
+- [x] 4.2.6. Elaborar el modelo entidad-relación.
+- [x] 4.2.7. Revisar la estructura de la base de datos.
 
 | Versión | Fecha | Descripción | Estado |
 |---|---|---|---|
 | 0.1 | 19/11/2026 | 62 tablas lógicas, diccionario de atributos, claves, relaciones y MER por dominios | En revisión |
+| 1.0 | 19/11/2026 | Aprobación del usuario | Aprobado |
 
-**Siguiente apartado:** 4.3 — Diseño de interfaz.
+**Siguiente apartado:** [DOC-QP-016 — Diseño de interfaz](DOC-QP-016_diseno_de_interfaz.md) (4.3).
