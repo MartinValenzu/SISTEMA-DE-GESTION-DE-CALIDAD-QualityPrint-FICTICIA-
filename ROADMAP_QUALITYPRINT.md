@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.15  
+**Versión:** 1.16  
 **Fecha:** 19/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -150,7 +150,9 @@
 
 **Entregable aprobado:** [F-QP-003 — Registro de producción DTF](docs/02_sgc/formatos/F-QP-003_registro_de_produccion_dtf.md).
 
-**Entregable en revisión:** [F-QP-004 — Formato de inspección final](docs/02_sgc/formatos/F-QP-004_inspeccion_final.md). La casilla 2.8.8 permanecerá pendiente hasta su aprobación.
+**Entregable aprobado:** [F-QP-004 — Formato de inspección final](docs/02_sgc/formatos/F-QP-004_inspeccion_final.md).
+
+**Entregable en revisión:** [F-QP-005 — Registro de no conformidades](docs/02_sgc/formatos/F-QP-005_registro_de_no_conformidades.md). La casilla 2.8.9 permanecerá pendiente hasta su aprobación.
 - [x] 2.8.1. Procedimiento de recepción de pedidos.
 - [x] 2.8.2. Procedimiento de producción DTF.
 - [x] 2.8.3. Procedimiento de inspección de calidad.
@@ -158,7 +160,7 @@
 - [x] 2.8.5. Formato de recepción de pedidos.
 - [x] 2.8.6. Formato de inspección de materiales.
 - [x] 2.8.7. Registro de producción DTF.
-- [ ] 2.8.8. Formato de inspección final.
+- [x] 2.8.8. Formato de inspección final.
 - [ ] 2.8.9. Registro de no conformidades.
 - [ ] 2.8.10. Registro de acciones correctivas.
 
