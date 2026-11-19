@@ -5,7 +5,7 @@
 ## ¿Qué es QualityPrint?
 QualityPrint simula una pequeña empresa de personalización textil que cuenta con **una impresora DTF** y **hasta cinco trabajadores**. El proyecto combina el diseño documental de un Sistema de Gestión de Calidad con el desarrollo progresivo de una **aplicación web para gestionar pedidos, registros de producción, inspecciones y no conformidades**.
 
-> **Estado actual:** Etapa 1 completada (18/18); Etapa 2 completada (56/56); Etapa 3 en elaboración — apartado 3.1 aprobado (DOC-QP-010), apartado 3.2 aprobado (DOC-QP-011), apartado 3.3 en revisión (DOC-QP-012). El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
+> **Estado actual:** Etapa 1 completada (18/18); Etapa 2 completada (56/56); Etapa 3 en elaboración — apartado 3.1 aprobado (DOC-QP-010), apartado 3.2 aprobado (DOC-QP-011), apartado 3.3 aprobado (DOC-QP-012), apartado 3.4 en revisión (DOC-QP-013). El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
 
 ## Objetivo
 Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros y facilitar la trazabilidad de calidad de pedidos de estampado DTF, con un panel básico de indicadores.
@@ -35,7 +35,8 @@ Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros 
 | [F-QP-006 — Registro de acciones correctivas](docs/02_sgc/formatos/F-QP-006_registro_de_acciones_correctivas.md) | Análisis de causa, plan, ejecución, eficacia y cierre de AC (aprobado) |
 | [DOC-QP-010 — Usuarios, roles y permisos](docs/03_requisitos/DOC-QP-010_usuarios_roles_y_permisos.md) | Perfiles, matriz de permisos y reglas de autorización (aprobado) |
 | [DOC-QP-011 — Requisitos funcionales](docs/03_requisitos/DOC-QP-011_requisitos_funcionales.md) | 48 requisitos y criterios de aceptación del software (aprobado) |
-| [DOC-QP-012 — Requisitos no funcionales](docs/03_requisitos/DOC-QP-012_requisitos_no_funcionales.md) | 33 requisitos de seguridad, usabilidad, integridad, rendimiento, respaldo y mantenibilidad (en revisión) |
+| [DOC-QP-012 — Requisitos no funcionales](docs/03_requisitos/DOC-QP-012_requisitos_no_funcionales.md) | 33 requisitos de seguridad, usabilidad, integridad, rendimiento, respaldo y mantenibilidad (aprobado) |
+| [DOC-QP-013 — Análisis del funcionamiento](docs/03_requisitos/DOC-QP-013_analisis_del_funcionamiento.md) | Flujos, 18 casos de uso, 8 escenarios, 23 reglas y prioridades (en revisión) |
 | [ROADMAP_QUALITYPRINT.md](ROADMAP_QUALITYPRINT.md) | Hoja de ruta detallada con casillas de avance |
 | [ETAPA_1_CHECKLIST.md](ETAPA_1_CHECKLIST.md) | Evidencias de la etapa inicial |
 | [docs/README.md](docs/README.md) | Índice de la documentación |
@@ -93,6 +94,7 @@ docs/
     DOC-QP-010_usuarios_roles_y_permisos.md
     DOC-QP-011_requisitos_funcionales.md
     DOC-QP-012_requisitos_no_funcionales.md
+    DOC-QP-013_analisis_del_funcionamiento.md
   04_diseno/
 ```
 
