@@ -5,7 +5,7 @@
 ## ¿Qué es QualityPrint?
 QualityPrint simula una pequeña empresa de personalización textil que cuenta con **una impresora DTF** y **hasta cinco trabajadores**. El proyecto combina el diseño documental de un Sistema de Gestión de Calidad con el desarrollo progresivo de una **aplicación web para gestionar pedidos, registros de producción, inspecciones y no conformidades**.
 
-> **Estado actual:** Etapa 1 completada (18/18); Etapa 2 completada (56/56); Etapa 3 en elaboración — apartado 3.1 aprobado (DOC-QP-010), apartado 3.2 aprobado (DOC-QP-011), apartado 3.3 aprobado (DOC-QP-012), apartado 3.4 en revisión (DOC-QP-013). El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
+> **Estado actual:** Etapa 1 completada (18/18); Etapa 2 completada (56/56); Etapa 3 completada (28/28); Etapa 4 en elaboración — apartado 4.1, DOC-QP-014 en revisión. El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
 
 ## Objetivo
 Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros y facilitar la trazabilidad de calidad de pedidos de estampado DTF, con un panel básico de indicadores.
@@ -36,7 +36,8 @@ Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros 
 | [DOC-QP-010 — Usuarios, roles y permisos](docs/03_requisitos/DOC-QP-010_usuarios_roles_y_permisos.md) | Perfiles, matriz de permisos y reglas de autorización (aprobado) |
 | [DOC-QP-011 — Requisitos funcionales](docs/03_requisitos/DOC-QP-011_requisitos_funcionales.md) | 48 requisitos y criterios de aceptación del software (aprobado) |
 | [DOC-QP-012 — Requisitos no funcionales](docs/03_requisitos/DOC-QP-012_requisitos_no_funcionales.md) | 33 requisitos de seguridad, usabilidad, integridad, rendimiento, respaldo y mantenibilidad (aprobado) |
-| [DOC-QP-013 — Análisis del funcionamiento](docs/03_requisitos/DOC-QP-013_analisis_del_funcionamiento.md) | Flujos, 18 casos de uso, 8 escenarios, 23 reglas y prioridades (en revisión) |
+| [DOC-QP-013 — Análisis del funcionamiento](docs/03_requisitos/DOC-QP-013_analisis_del_funcionamiento.md) | Flujos, 18 casos de uso, 8 escenarios, 23 reglas y prioridades (aprobado) |
+| [DOC-QP-014 — Diseño de arquitectura](docs/04_diseno/DOC-QP-014_diseno_de_arquitectura.md) | Arquitectura modular, comunicación HTTP, persistencia y diagramas (en revisión) |
 | [ROADMAP_QUALITYPRINT.md](ROADMAP_QUALITYPRINT.md) | Hoja de ruta detallada con casillas de avance |
 | [ETAPA_1_CHECKLIST.md](ETAPA_1_CHECKLIST.md) | Evidencias de la etapa inicial |
 | [docs/README.md](docs/README.md) | Índice de la documentación |
@@ -96,6 +97,8 @@ docs/
     DOC-QP-012_requisitos_no_funcionales.md
     DOC-QP-013_analisis_del_funcionamiento.md
   04_diseno/
+    README.md
+    DOC-QP-014_diseno_de_arquitectura.md
 ```
 
 Las carpetas de las siguientes etapas están preparadas; sus documentos se elaborarán progresivamente.
@@ -103,8 +106,8 @@ Las carpetas de las siguientes etapas están preparadas; sus documentos se elabo
 ## Etapas
 1. Inicio y organización — **completada**.
 2. Documentación de la empresa y del SGC — **completada**.
-3. Requisitos del software — **en elaboración**.
-4. Arquitectura, diseño y base de datos.
+3. Requisitos del software — **completada**.
+4. Arquitectura, diseño y base de datos — **en elaboración**.
 5. Entorno de desarrollo.
 6. Desarrollo del MVP.
 7. Pruebas.
