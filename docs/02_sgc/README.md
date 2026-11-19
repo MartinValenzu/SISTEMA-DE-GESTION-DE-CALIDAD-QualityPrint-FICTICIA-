@@ -36,7 +36,9 @@
 
 - [F-QP-004 — Formato de inspección final](formatos/F-QP-004_inspeccion_final.md): actividad 2.8.8; **aprobado**.
 
-- [F-QP-005 — Registro de no conformidades](formatos/F-QP-005_registro_de_no_conformidades.md): actividad 2.8.9; **plantilla pendiente de revisión y aprobación**.
+- [F-QP-005 — Registro de no conformidades](formatos/F-QP-005_registro_de_no_conformidades.md): actividad 2.8.9; **aprobado**.
+
+- [F-QP-006 — Registro de acciones correctivas](formatos/F-QP-006_registro_de_acciones_correctivas.md): actividad 2.8.10; **plantilla pendiente de revisión y aprobación**.
 
 ## Próximas actividades
 
@@ -48,7 +50,7 @@
 - **2.8.6. Formato de inspección de materiales:** aprobado.
 - **2.8.7. Registro de producción DTF:** aprobado.
 - **2.8.8. Formato de inspección final:** aprobado.
-- **2.8.9. Registro de no conformidades:** publicado para revisión.
-- **2.8.10. Registro de acciones correctivas:** pendiente.
+- **2.8.9. Registro de no conformidades:** aprobado.
+- **2.8.10. Registro de acciones correctivas:** publicado para revisión; último entregable de la etapa 2.
 
 Consulta el [ROADMAP](../../ROADMAP_QUALITYPRINT.md) antes de marcar una casilla como terminada.
