@@ -4,7 +4,7 @@
 |---|---|
 | Código | LM-QP-001 |
 | Tipo | Listado maestro de documentos del SGC simulado |
-| Versión | 1.16 |
+| Versión | 1.17 |
 | Fecha | 19 de noviembre de 2026 |
 | Estado | **Aprobado para el proyecto académico** |
 | Responsable propuesto | Control de calidad / administrador de la documentación |
@@ -25,7 +25,7 @@
 | DOC-QP-007 | Descripción del proceso de producción DTF | 1.0 | Aprobado | 10/11/2026 | Operación DTF / calidad | [Archivo](DOC-QP-007_proceso_de_produccion_DTF.md) |
 | DOC-QP-008 | Gestión de riesgos y oportunidades | 1.0 | Aprobado | 10/11/2026 | Gerencia / calidad | [Archivo](DOC-QP-008_gestion_de_riesgos_y_oportunidades.md) |
 | DOC-QP-009 | Gestión documental | 1.0 | Aprobado | 10/11/2026 | Calidad / responsable del proyecto | [Archivo](DOC-QP-009_gestion_documental.md) |
-| LM-QP-001 | Listado maestro de documentos | 1.16 | Vigente | 19/11/2026 | Calidad / custodio documental | [Este archivo](LM-QP-001_listado_maestro_de_documentos.md) |
+| LM-QP-001 | Listado maestro de documentos | 1.17 | Vigente | 19/11/2026 | Calidad / custodio documental | [Este archivo](LM-QP-001_listado_maestro_de_documentos.md) |
 | PR-QP-001 | Procedimiento de recepción de pedidos | 1.0 | Aprobado | 18/11/2026 | Comercial y diseño / calidad | [Archivo](procedimientos/PR-QP-001_recepcion_de_pedidos.md) |
 | PR-QP-002 | Procedimiento de producción DTF | 1.0 | Aprobado | 18/11/2026 | Operador DTF / calidad | [Archivo](procedimientos/PR-QP-002_produccion_dtf.md) |
 | PR-QP-003 | Procedimiento de inspección de calidad | 1.0 | Aprobado | 18/11/2026 | Control de calidad | [Archivo](procedimientos/PR-QP-003_inspeccion_de_calidad.md) |
@@ -42,9 +42,10 @@
 | DOC-QP-013 | Análisis del funcionamiento del software | 1.0 | Aprobado | 19/11/2026 | Responsable del proyecto | [Archivo](../03_requisitos/DOC-QP-013_analisis_del_funcionamiento.md) |
 | DOC-QP-014 | Diseño de arquitectura del software | 1.0 | Aprobado | 19/11/2026 | Responsable del proyecto | [Archivo](../04_diseno/DOC-QP-014_diseno_de_arquitectura.md) |
 | DOC-QP-015 | Diseño de base de datos | 1.0 | Aprobado | 19/11/2026 | Responsable del proyecto | [Archivo](../04_diseno/DOC-QP-015_diseno_de_base_de_datos.md) |
-| DOC-QP-016 | Diseño de interfaz del software | 0.1 | En revisión | 19/11/2026 | Responsable del proyecto | [Archivo](../04_diseno/DOC-QP-016_diseno_de_interfaz.md) |
+| DOC-QP-016 | Diseño de interfaz del software | 1.0 | Aprobado | 19/11/2026 | Responsable del proyecto | [Archivo](../04_diseno/DOC-QP-016_diseno_de_interfaz.md) |
+| DOC-QP-017 | Preparación de herramientas de desarrollo | 0.1 | En revisión | 19/11/2026 | Responsable del proyecto | [Archivo](../05_entorno/DOC-QP-017_preparacion_de_herramientas.md) |
 
-**Comprobación de vigencia:** DOC-QP-001 a DOC-QP-015, PR-QP-001 a PR-QP-004 y F-QP-001 a F-QP-006 están aprobados para el proyecto académico; LM-QP-001 conserva su aprobación. DOC-QP-016 es un documento en revisión; su anexo navegable es [prototipo_interfaz.html](../04_diseno/prototipo_interfaz.html).
+**Comprobación de vigencia:** DOC-QP-001 a DOC-QP-016, PR-QP-001 a PR-QP-004 y F-QP-001 a F-QP-006 están aprobados para el proyecto académico; LM-QP-001 conserva su aprobación. DOC-QP-016 conserva su [prototipo HTML](../04_diseno/prototipo_interfaz.html). DOC-QP-017 está en revisión; verificación local pendiente.
 
 ## 2. Archivos operativos del repositorio (sin código retrospectivo)
 
@@ -58,7 +59,7 @@
 
 ## 3. Documentos previstos, todavía no creados
 
-Todos los documentos codificados previstos de las etapas 1 a 3 están publicados y aprobados. Los documentos de la etapa 4 se incorporarán conforme al roadmap.
+Todos los documentos codificados previstos de las etapas 1 a 4 están publicados y aprobados. Los documentos de la etapa 5 se incorporarán conforme al roadmap.
 
 **Regla:** ningún elemento previsto se marcará como completado hasta que exista el archivo, se revise y se apruebe. Una plantilla vacía no constituye evidencia de inspección o de acciones ejecutadas.
 
@@ -91,6 +92,7 @@ Todos los documentos codificados previstos de las etapas 1 a 3 están publicados
 | 1.13 | 19/11/2026 | DOC-QP-012 aprobado y DOC-QP-013 en revisión | Sustituido |
 | 1.14 | 19/11/2026 | DOC-QP-013 aprobado, etapa 3 cerrada y DOC-QP-014 en revisión | Sustituido |
 | 1.15 | 19/11/2026 | DOC-QP-014 aprobado y DOC-QP-015 en revisión | Sustituido |
-| 1.16 | 19/11/2026 | DOC-QP-015 aprobado y DOC-QP-016 con prototipo en revisión | Vigente |
+| 1.16 | 19/11/2026 | DOC-QP-015 aprobado y DOC-QP-016 con prototipo en revisión | Sustituido |
+| 1.17 | 19/11/2026 | DOC-QP-016 aprobado; etapa 4 cerrada y DOC-QP-017 en revisión | Vigente |
 
-**Próximo evento:** revisión de DOC-QP-016 y cierre de la etapa 4 tras su aprobación.
+**Próximo evento:** verificación local de herramientas de 5.1 y revisión de DOC-QP-017.
