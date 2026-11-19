@@ -3,10 +3,10 @@
 | Campo documental | Información |
 |---|---|
 | Código | F-QP-004 |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 19/11/2026 |
 | Actividad | 2.8.8 — Formato de inspección final |
-| Estado | **Plantilla en revisión** |
+| Estado | **Formato aprobado para el proyecto académico** |
 | Empresa | QualityPrint (ficticia) |
 | Proceso | PO-03 — Control de calidad |
 | Responsable | Control de calidad |
@@ -192,9 +192,10 @@ Estas reglas son propuestas para el diseño del software; todavía no están imp
 | Versión | Fecha | Cambio | Estado |
 |---|---|---|---|
 | 0.1 | 19/11/2026 | Plantilla inicial de inspección individual, defectos, reinspección, cantidades y liberación | En revisión |
+| 1.0 | 19/11/2026 | Aprobación del usuario | Aprobado |
 
-- [ ] **2.8.8.** Formato de inspección final publicado; pendiente de aprobación.
+- [x] **2.8.8.** Formato de inspección final aprobado para el proyecto académico.
 
-**Siguiente entregable:** F-QP-005 — Registro de no conformidades (2.8.9).
+**Siguiente entregable:** [F-QP-005 — Registro de no conformidades](F-QP-005_registro_de_no_conformidades.md) (2.8.9).
 
 [Volver al listado maestro](../LM-QP-001_listado_maestro_de_documentos.md).
