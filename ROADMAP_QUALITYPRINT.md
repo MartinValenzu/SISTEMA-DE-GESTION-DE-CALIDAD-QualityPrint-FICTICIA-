@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.19  
+**Versión:** 1.20  
 **Fecha:** 19/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -190,20 +190,22 @@
 
 ## 3.2. Requisitos funcionales
 
-**Documento en revisión:** [DOC-QP-011 — Requisitos funcionales](docs/03_requisitos/DOC-QP-011_requisitos_funcionales.md). Las actividades 3.2.1–3.2.11 permanecen pendientes de aprobación.
-- [ ] 3.2.1. Gestión de usuarios.
-- [ ] 3.2.2. Gestión de clientes.
-- [ ] 3.2.3. Registro y consulta de pedidos.
-- [ ] 3.2.4. Gestión de productos y prendas.
-- [ ] 3.2.5. Registro de producción DTF.
-- [ ] 3.2.6. Registro de inspecciones.
-- [ ] 3.2.7. Registro de defectos.
-- [ ] 3.2.8. Gestión de no conformidades.
-- [ ] 3.2.9. Registro de acciones correctivas.
-- [ ] 3.2.10. Consulta de indicadores.
-- [ ] 3.2.11. Dashboard o panel principal.
+**Documento aprobado:** [DOC-QP-011 — Requisitos funcionales](docs/03_requisitos/DOC-QP-011_requisitos_funcionales.md).
+- [x] 3.2.1. Gestión de usuarios.
+- [x] 3.2.2. Gestión de clientes.
+- [x] 3.2.3. Registro y consulta de pedidos.
+- [x] 3.2.4. Gestión de productos y prendas.
+- [x] 3.2.5. Registro de producción DTF.
+- [x] 3.2.6. Registro de inspecciones.
+- [x] 3.2.7. Registro de defectos.
+- [x] 3.2.8. Gestión de no conformidades.
+- [x] 3.2.9. Registro de acciones correctivas.
+- [x] 3.2.10. Consulta de indicadores.
+- [x] 3.2.11. Dashboard o panel principal.
 
 ## 3.3. Requisitos no funcionales
+
+**Documento en revisión:** [DOC-QP-012 — Requisitos no funcionales](docs/03_requisitos/DOC-QP-012_requisitos_no_funcionales.md). Las actividades 3.3.1–3.3.7 permanecen pendientes de aprobación.
 - [ ] 3.3.1. Seguridad de acceso.
 - [ ] 3.3.2. Facilidad de uso.
 - [ ] 3.3.3. Diseño adaptable a diferentes pantallas.
