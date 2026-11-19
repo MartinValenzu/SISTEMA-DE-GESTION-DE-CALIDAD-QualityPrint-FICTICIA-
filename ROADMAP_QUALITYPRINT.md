@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.23  
+**Versión:** 1.24  
 **Fecha:** 19/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -245,16 +245,18 @@
 
 ## 4.2. Diseño de base de datos
 
-**Documento en revisión:** [DOC-QP-015 — Diseño de base de datos](docs/04_diseno/DOC-QP-015_diseno_de_base_de_datos.md). Las actividades 4.2.1–4.2.7 permanecen pendientes de aprobación.
-- [ ] 4.2.1. Identificar entidades.
-- [ ] 4.2.2. Definir atributos.
-- [ ] 4.2.3. Definir claves primarias.
-- [ ] 4.2.4. Definir claves foráneas.
-- [ ] 4.2.5. Establecer relaciones.
-- [ ] 4.2.6. Elaborar el modelo entidad-relación.
-- [ ] 4.2.7. Revisar la estructura de la base de datos.
+**Documento aprobado:** [DOC-QP-015 — Diseño de base de datos](docs/04_diseno/DOC-QP-015_diseno_de_base_de_datos.md).
+- [x] 4.2.1. Identificar entidades.
+- [x] 4.2.2. Definir atributos.
+- [x] 4.2.3. Definir claves primarias.
+- [x] 4.2.4. Definir claves foráneas.
+- [x] 4.2.5. Establecer relaciones.
+- [x] 4.2.6. Elaborar el modelo entidad-relación.
+- [x] 4.2.7. Revisar la estructura de la base de datos.
 
 ## 4.3. Diseño de interfaz
+
+**Documento en revisión:** [DOC-QP-016 — Diseño de interfaz](docs/04_diseno/DOC-QP-016_diseno_de_interfaz.md) y [prototipo HTML](docs/04_diseno/prototipo_interfaz.html). Las actividades 4.3.1–4.3.9 y el cierre de la etapa 4 permanecen pendientes de aprobación.
 - [ ] 4.3.1. Definir identidad visual.
 - [ ] 4.3.2. Diseñar el menú de navegación.
 - [ ] 4.3.3. Diseñar el dashboard.
