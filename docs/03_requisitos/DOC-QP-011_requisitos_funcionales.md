@@ -4,13 +4,13 @@
 |---|---|
 | Código | DOC-QP-011 |
 | Apartado | 3.2 — Requisitos funcionales |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 19/11/2026 |
-| Estado | **En revisión** |
+| Estado | **Aprobado para el proyecto académico** |
 | Proyecto | QualityPrint-SGC (empresa ficticia) |
 | Elaboración | Responsable del proyecto |
 | Revisión propuesta | Gerencia y Control de calidad |
-| Aprobación del portafolio | Pendiente de confirmación del usuario |
+| Aprobación del portafolio | Aprobado por el usuario del proyecto |
 
 ## 1. Objetivo y alcance
 
@@ -200,20 +200,21 @@ Los requisitos se usarán como referencia en el diseño del modelo de datos, cas
 
 ## 5. Estado y control de cambios
 
-- [ ] 3.2.1. Gestión de usuarios.
-- [ ] 3.2.2. Gestión de clientes.
-- [ ] 3.2.3. Registro y consulta de pedidos.
-- [ ] 3.2.4. Gestión de productos y prendas.
-- [ ] 3.2.5. Registro de producción DTF.
-- [ ] 3.2.6. Registro de inspecciones.
-- [ ] 3.2.7. Registro de defectos.
-- [ ] 3.2.8. Gestión de no conformidades.
-- [ ] 3.2.9. Registro de acciones correctivas.
-- [ ] 3.2.10. Consulta de indicadores.
-- [ ] 3.2.11. Dashboard o panel principal.
+- [x] 3.2.1. Gestión de usuarios.
+- [x] 3.2.2. Gestión de clientes.
+- [x] 3.2.3. Registro y consulta de pedidos.
+- [x] 3.2.4. Gestión de productos y prendas.
+- [x] 3.2.5. Registro de producción DTF.
+- [x] 3.2.6. Registro de inspecciones.
+- [x] 3.2.7. Registro de defectos.
+- [x] 3.2.8. Gestión de no conformidades.
+- [x] 3.2.9. Registro de acciones correctivas.
+- [x] 3.2.10. Consulta de indicadores.
+- [x] 3.2.11. Dashboard o panel principal.
 
 | Versión | Fecha | Descripción | Estado |
 |---|---|---|---|
 | 0.1 | 19/11/2026 | 48 requisitos funcionales, criterios de aceptación y trazabilidad con el SGC | En revisión |
+| 1.0 | 19/11/2026 | Aprobación del usuario | Aprobado |
 
-**Siguiente apartado:** 3.3 — Requisitos no funcionales.
+**Siguiente apartado:** [DOC-QP-012 — Requisitos no funcionales](DOC-QP-012_requisitos_no_funcionales.md) (3.3).
