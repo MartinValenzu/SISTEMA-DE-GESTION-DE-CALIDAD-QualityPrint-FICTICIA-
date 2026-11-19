@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.21  
+**Versión:** 1.22  
 **Fecha:** 19/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -10,7 +10,7 @@
 ### ESTADO GENERAL
 - [x] Etapa 1. Inicio y organización del proyecto.
 - [x] Etapa 2. Documentación de la empresa y del SGC.
-- [ ] Etapa 3. Análisis de requisitos del software.
+- [x] Etapa 3. Análisis de requisitos del software.
 - [ ] Etapa 4. Diseño del software y base de datos.
 - [ ] Etapa 5. Preparación del entorno de desarrollo.
 - [ ] Etapa 6. Desarrollo de la aplicación.
@@ -216,12 +216,14 @@
 
 ## 3.4. Análisis del funcionamiento
 
-**Documento en revisión:** [DOC-QP-013 — Análisis del funcionamiento](docs/03_requisitos/DOC-QP-013_analisis_del_funcionamiento.md). Las actividades 3.4.1–3.4.5 y el cierre de la etapa 3 permanecen pendientes de aprobación.
-- [ ] 3.4.1. Definir el flujo general del sistema.
-- [ ] 3.4.2. Elaborar casos de uso.
-- [ ] 3.4.3. Describir los escenarios principales.
-- [ ] 3.4.4. Definir reglas de negocio.
-- [ ] 3.4.5. Establecer prioridades de funcionalidades.
+**Documento aprobado:** [DOC-QP-013 — Análisis del funcionamiento](docs/03_requisitos/DOC-QP-013_analisis_del_funcionamiento.md).
+- [x] 3.4.1. Definir el flujo general del sistema.
+- [x] 3.4.2. Elaborar casos de uso.
+- [x] 3.4.3. Describir los escenarios principales.
+- [x] 3.4.4. Definir reglas de negocio.
+- [x] 3.4.5. Establecer prioridades de funcionalidades.
+
+**Etapa 3 completada: 28/28.** Requisitos funcionales y no funcionales, roles, flujos y reglas aprobados para el proyecto académico.
 
 **Entregables de la etapa:**
 - Documento de requisitos.
@@ -234,6 +236,8 @@
 # ETAPA 4. DISEÑO DEL SOFTWARE Y BASE DE DATOS
 
 ## 4.1. Diseño de arquitectura
+
+**Documento en revisión:** [DOC-QP-014 — Diseño de arquitectura](docs/04_diseno/DOC-QP-014_diseno_de_arquitectura.md). Las actividades 4.1.1–4.1.4 permanecen pendientes de aprobación.
 - [ ] 4.1.1. Definir arquitectura general.
 - [ ] 4.1.2. Diseñar la comunicación frontend/backend.
 - [ ] 4.1.3. Definir la conexión con la base de datos.
