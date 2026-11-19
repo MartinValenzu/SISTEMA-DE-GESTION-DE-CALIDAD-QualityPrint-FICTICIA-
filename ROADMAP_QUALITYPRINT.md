@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.17  
+**Versión:** 1.18  
 **Fecha:** 19/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -9,7 +9,7 @@
 
 ### ESTADO GENERAL
 - [x] Etapa 1. Inicio y organización del proyecto.
-- [ ] Etapa 2. Documentación de la empresa y del SGC.
+- [x] Etapa 2. Documentación de la empresa y del SGC.
 - [ ] Etapa 3. Análisis de requisitos del software.
 - [ ] Etapa 4. Diseño del software y base de datos.
 - [ ] Etapa 5. Preparación del entorno de desarrollo.
@@ -150,9 +150,11 @@
 
 **Entregable aprobado:** [F-QP-003 — Registro de producción DTF](docs/02_sgc/formatos/F-QP-003_registro_de_produccion_dtf.md).
 
+**Entregable aprobado:** [F-QP-004 — Formato de inspección final](docs/02_sgc/formatos/F-QP-004_inspeccion_final.md).
+
 **Entregable aprobado:** [F-QP-005 — Registro de no conformidades](docs/02_sgc/formatos/F-QP-005_registro_de_no_conformidades.md).
 
-**Entregable en revisión:** [F-QP-006 — Registro de acciones correctivas](docs/02_sgc/formatos/F-QP-006_registro_de_acciones_correctivas.md). La casilla 2.8.10 y el cierre de la etapa 2 permanecerán pendientes hasta su aprobación.
+**Entregable aprobado:** [F-QP-006 — Registro de acciones correctivas](docs/02_sgc/formatos/F-QP-006_registro_de_acciones_correctivas.md).
 - [x] 2.8.1. Procedimiento de recepción de pedidos.
 - [x] 2.8.2. Procedimiento de producción DTF.
 - [x] 2.8.3. Procedimiento de inspección de calidad.
@@ -162,7 +164,9 @@
 - [x] 2.8.7. Registro de producción DTF.
 - [x] 2.8.8. Formato de inspección final.
 - [x] 2.8.9. Registro de no conformidades.
-- [ ] 2.8.10. Registro de acciones correctivas.
+- [x] 2.8.10. Registro de acciones correctivas.
+
+**Etapa 2 completada: 56/56.** Los documentos y formatos están aprobados para el proyecto académico; no constituyen evidencia de operaciones reales.
 
 **Entregables de la etapa:**
 - Documentación general de la empresa.
@@ -176,6 +180,8 @@
 # ETAPA 3. ANÁLISIS DE REQUISITOS DEL SOFTWARE
 
 ## 3.1. Identificación de usuarios
+
+**Documento en revisión:** [DOC-QP-010 — Identificación de usuarios, roles y permisos](docs/03_requisitos/DOC-QP-010_usuarios_roles_y_permisos.md). Las actividades 3.1.1–3.1.5 permanecerán pendientes hasta su aprobación.
 - [ ] 3.1.1. Definir el usuario administrador.
 - [ ] 3.1.2. Definir el gerente.
 - [ ] 3.1.3. Definir el responsable de calidad.
