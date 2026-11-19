@@ -40,14 +40,16 @@ flowchart TD
  I --> J["Calidad: inspección final"]
  J --> K{"¿Unidad conforme?"}
  K -->|No| L["Retener; gestionar NC y disposición"]
- L --> M{"¿Retrabajo o reposición?"}
- M -->|Sí| J
- M -->|No| N["Registrar destino; evaluar faltantes"]
+ L --> M{"¿Disposición autorizada?"}
+ M -->|Retrabajo| X["Ejecutar retrabajo autorizado"]
+ X --> J
+ M -->|Reposición o descarte| N["Registrar destino; evaluar faltantes"]
+ M -->|Pendiente| L
  N --> O["Reponer si procede o gestionar cambio acordado"]
  O --> A
  K -->|Sí| P{"¿Cantidad y requisitos de liberación cumplidos?"}
  P -->|No| Q["Mantener bloqueadas las cantidades pendientes"]
- Q --> P
+ Q --> O
  P -->|Sí| R["Calidad: autorizar unidades"]
  R --> S["Logística: despachar y registrar entrega"]
  S --> T["Consultar indicadores y seguimiento"]
@@ -63,9 +65,9 @@ flowchart TD
 
 ```mermaid
 flowchart TD
- A["Reporte de detección independiente"] --> B{"¿Calidad confirma NC?"}
- B -->|No| C["Conservar reporte y decisión"]
- B -->|Sí| D["Contener y abrir NC"]
+ A["Reporte de detección y contención inmediata si aplica"] --> B{"¿Calidad confirma NC?"}
+ B -->|No| C["Conservar reporte y decisión; verificar antes de desbloquear"]
+ B -->|Sí| D["Abrir NC vinculada"]
  D --> E["Autorizar y ejecutar disposición"]
  E --> F{"¿Tratamiento verificado?"}
  F -->|No| E
@@ -81,7 +83,7 @@ flowchart TD
  M --> H
 ```
 
-La NC y la AC tienen estados independientes. Si una AC es obligatoria, la NC no se cierra hasta verificar su propio tratamiento y la eficacia de la AC asociada. La liberación individual exige conformidad y autorización; no se deduce del mero estado de la NC.
+La NC y la AC tienen estados independientes. La evaluación de necesidad de AC y su análisis pueden iniciarse durante el tratamiento de una NC, especialmente si es crítica; el diagrama muestra las condiciones que deben verificarse antes de cerrar. Si una AC es obligatoria, la NC no se cierra hasta verificar su propio tratamiento y la eficacia de la AC asociada. La liberación individual exige conformidad y autorización; no se deduce del mero estado de la NC.
 
 ## 3.4.2. Casos de uso
 
@@ -167,7 +169,7 @@ Cada escenario se desglosará en pruebas con precondiciones y resultado esperado
 | RN-09 | Calidad acepta primera pieza antes de las restantes; cambios invalidantes exigen repetirla. | No continuar hasta aceptación nueva. | RF-21 |
 | RN-10 | Cada prenda tiene ID físico único; retrabajo conserva ID y reposición crea otro, con vínculo a original. | Impedir duplicación y preservar historial. | RF-22,26,33 |
 | RN-11 | Procesadas = aptas para inspección + retenidas + descartadas; pendientes se registran aparte. | Impedir cierre inconciliado. | RF-23 |
-| RN-12 | Inspeccionar cada unidad presentada; todo NC/P o prueba exigida pendiente impide conformidad. NA requiere justificación. | Masa afectada permanece no liberada; rechazo exige decisión. | RF-24–27, F-QP-004 |
+| RN-12 | Inspeccionar cada unidad presentada; todo NC/P o prueba exigida pendiente impide conformidad. NA requiere justificación. | Unidad afectada permanece no liberada; rechazo exige decisión. | RF-24–27, F-QP-004 |
 | RN-13 | Solo Calidad independiente de la producción autoriza liberación individual conforme; validar cantidades por línea y no duplicar IDs. | Bloquear liberación. | RF-28, PER-03 |
 | RN-14 | Solo Logística despacha unidades liberadas; parcial requiere aceptación expresa del cliente. La entrega completa requiere cantidades y requisitos vigentes satisfechos, con evidencia. | Bloquear despacho o mantener pedido no finalizado. | RF-14,28, PER-05 |
 | RN-15 | Evento independiente confirmado recibe una única NC con prioridad más alta aplicable: crítica, mayor o menor. | Rechazar duplicado; conservar reporte; registrar contención y avisos. | RF-30,32–33 |
