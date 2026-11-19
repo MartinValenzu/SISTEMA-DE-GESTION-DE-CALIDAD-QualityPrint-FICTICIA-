@@ -3,10 +3,10 @@
 | Campo documental | Información |
 |---|---|
 | Código | F-QP-003 |
-| Versión | 0.1 |
+| Versión | 1.0 |
 | Fecha | 19/11/2026 |
 | Actividad | 2.8.7 — Registro de producción DTF |
-| Estado | **Plantilla en revisión** |
+| Estado | **Formato aprobado para el proyecto académico** |
 | Empresa | QualityPrint (ficticia) |
 | Proceso | PO-02 — Producción DTF |
 | Responsable | Operador DTF |
@@ -232,9 +232,10 @@ Reglas propuestas para las etapas de requisitos y diseño; todavía no son funci
 | Versión | Fecha | Cambio | Estado |
 |---|---|---|---|
 | 0.1 | 19/11/2026 | Plantilla inicial de materiales, parámetros, primera pieza, incidencias y conciliación del lote | En revisión |
+| 1.0 | 19/11/2026 | Aprobación del usuario | Aprobado |
 
-- [ ] **2.8.7.** Registro de producción DTF publicado; pendiente de aprobación.
+- [x] **2.8.7.** Registro de producción DTF aprobado para el proyecto académico.
 
-**Siguiente entregable:** F-QP-004 — Formato de inspección final (2.8.8).
+**Siguiente entregable:** [F-QP-004 — Formato de inspección final](F-QP-004_inspeccion_final.md) (2.8.8).
 
 [Volver al listado maestro](../LM-QP-001_listado_maestro_de_documentos.md).
