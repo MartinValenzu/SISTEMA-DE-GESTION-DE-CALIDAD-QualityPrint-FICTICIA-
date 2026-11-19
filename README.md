@@ -5,7 +5,7 @@
 ## ¿Qué es QualityPrint?
 QualityPrint simula una pequeña empresa de personalización textil que cuenta con **una impresora DTF** y **hasta cinco trabajadores**. El proyecto combina el diseño documental de un Sistema de Gestión de Calidad con el desarrollo progresivo de una **aplicación web para gestionar pedidos, registros de producción, inspecciones y no conformidades**.
 
-> **Estado actual:** Etapa 1 completada (18/18); Etapa 2 completada (56/56); Etapa 3 completada (28/28); Etapa 4 en elaboración — apartado 4.1 aprobado (DOC-QP-014), apartado 4.2 aprobado (DOC-QP-015), apartado 4.3 en revisión (DOC-QP-016). El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
+> **Estado actual:** Etapa 1 completada (18/18); Etapa 2 completada (56/56); Etapa 3 completada (28/28); Etapa 4 completada (20/20); Etapa 5 en elaboración (1/14) — apartado 5.1, DOC-QP-017 en revisión; verificación local pendiente. El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
 
 ## Objetivo
 Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros y facilitar la trazabilidad de calidad de pedidos de estampado DTF, con un panel básico de indicadores.
@@ -39,8 +39,9 @@ Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros 
 | [DOC-QP-013 — Análisis del funcionamiento](docs/03_requisitos/DOC-QP-013_analisis_del_funcionamiento.md) | Flujos, 18 casos de uso, 8 escenarios, 23 reglas y prioridades (aprobado) |
 | [DOC-QP-014 — Diseño de arquitectura](docs/04_diseno/DOC-QP-014_diseno_de_arquitectura.md) | Arquitectura modular, comunicación HTTP, persistencia y diagramas (aprobado) |
 | [DOC-QP-015 — Diseño de base de datos](docs/04_diseno/DOC-QP-015_diseno_de_base_de_datos.md) | Diccionario de 62 tablas, claves y MER por dominios (aprobado) |
-| [DOC-QP-016 — Diseño de interfaz](docs/04_diseno/DOC-QP-016_diseno_de_interfaz.md) | Identidad, componentes, pantallas, UX y prototipo (en revisión) |
+| [DOC-QP-016 — Diseño de interfaz](docs/04_diseno/DOC-QP-016_diseno_de_interfaz.md) | Identidad, componentes, pantallas, UX y prototipo (aprobado) |
 | [Prototipo de interfaz HTML](docs/04_diseno/prototipo_interfaz.html) | Maqueta navegable sin backend ni datos reales; descargar y abrir localmente |
+| [DOC-QP-017 — Preparación de herramientas](docs/05_entorno/DOC-QP-017_preparacion_de_herramientas.md) | Guía de Windows y verificación local (en revisión) |
 | [ROADMAP_QUALITYPRINT.md](ROADMAP_QUALITYPRINT.md) | Hoja de ruta detallada con casillas de avance |
 | [ETAPA_1_CHECKLIST.md](ETAPA_1_CHECKLIST.md) | Evidencias de la etapa inicial |
 | [docs/README.md](docs/README.md) | Índice de la documentación |
@@ -105,6 +106,9 @@ docs/
     DOC-QP-015_diseno_de_base_de_datos.md
     DOC-QP-016_diseno_de_interfaz.md
     prototipo_interfaz.html
+  05_entorno/
+    README.md
+    DOC-QP-017_preparacion_de_herramientas.md
 ```
 
 Las carpetas de las siguientes etapas están preparadas; sus documentos se elaborarán progresivamente.
@@ -113,8 +117,8 @@ Las carpetas de las siguientes etapas están preparadas; sus documentos se elabo
 1. Inicio y organización — **completada**.
 2. Documentación de la empresa y del SGC — **completada**.
 3. Requisitos del software — **completada**.
-4. Arquitectura, diseño y base de datos — **en elaboración**.
-5. Entorno de desarrollo.
+4. Arquitectura, diseño y base de datos — **completada**.
+5. Entorno de desarrollo — **en elaboración**.
 6. Desarrollo del MVP.
 7. Pruebas.
 8. Publicación y portafolio.
