@@ -3,10 +3,10 @@
 | Campo | Valor |
 |---|---|
 | Código documental | F-QP-002 |
-| Versión | 0.1 |
-| Fecha | 18/11/2026 |
+| Versión | 1.0 |
+| Fecha | 19/11/2026 |
 | Actividad del ROADMAP | **2.8.6. Formato de inspección de materiales** |
-| Estado | **Borrador para revisión; no aprobado** |
+| Estado | **Formato aprobado para el proyecto académico** |
 | Empresa | QualityPrint (ficticia) |
 | Proceso | PO-02 — Preparación de la producción DTF |
 | Responsable de verificación | Operador DTF |
@@ -186,12 +186,13 @@ Estas son **reglas propuestas para las etapas 3 y 4**, no características ya im
 
 ## 10. Revisión del formato y control de cambios
 
-- [ ] **2.8.6.** Formato de inspección de materiales redactado y publicado; pendiente de aprobación.
+- [x] **2.8.6.** Formato de inspección de materiales aprobado para el proyecto académico.
 
 | Versión | Fecha | Descripción | Estado |
 |---|---|---|---|
 | 0.1 | 18/11/2026 | Plantilla de materiales, criterios específicos, retención y liberación | En revisión |
+| 1.0 | 19/11/2026 | Aprobación del usuario | Aprobado |
 
-**Próximo entregable tras aprobar F-QP-002:** **2.8.7 — F-QP-003, Registro de producción DTF**.
+**Siguiente entregable:** [F-QP-003 — Registro de producción DTF](F-QP-003_registro_de_produccion_dtf.md) (2.8.7).
 
 [Volver al listado maestro](../LM-QP-001_listado_maestro_de_documentos.md).
