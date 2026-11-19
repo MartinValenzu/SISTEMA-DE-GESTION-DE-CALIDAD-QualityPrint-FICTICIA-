@@ -5,7 +5,7 @@
 ## ¿Qué es QualityPrint?
 QualityPrint simula una pequeña empresa de personalización textil que cuenta con **una impresora DTF** y **hasta cinco trabajadores**. El proyecto combina el diseño documental de un Sistema de Gestión de Calidad con el desarrollo progresivo de una **aplicación web para gestionar pedidos, registros de producción, inspecciones y no conformidades**.
 
-> **Estado actual:** Etapa 1 completada (18/18); Etapa 2 completada (56/56); Etapa 3 completada (28/28); Etapa 4 en elaboración — apartado 4.1, DOC-QP-014 en revisión. El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
+> **Estado actual:** Etapa 1 completada (18/18); Etapa 2 completada (56/56); Etapa 3 completada (28/28); Etapa 4 en elaboración — apartado 4.1 aprobado (DOC-QP-014), apartado 4.2 en revisión (DOC-QP-015). El software todavía **no está desarrollado**. La empresa y sus datos son ficticios; no se afirma certificación ISO.
 
 ## Objetivo
 Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros y facilitar la trazabilidad de calidad de pedidos de estampado DTF, con un panel básico de indicadores.
@@ -37,7 +37,8 @@ Diseñar, desarrollar y evaluar un prototipo web capaz de centralizar registros 
 | [DOC-QP-011 — Requisitos funcionales](docs/03_requisitos/DOC-QP-011_requisitos_funcionales.md) | 48 requisitos y criterios de aceptación del software (aprobado) |
 | [DOC-QP-012 — Requisitos no funcionales](docs/03_requisitos/DOC-QP-012_requisitos_no_funcionales.md) | 33 requisitos de seguridad, usabilidad, integridad, rendimiento, respaldo y mantenibilidad (aprobado) |
 | [DOC-QP-013 — Análisis del funcionamiento](docs/03_requisitos/DOC-QP-013_analisis_del_funcionamiento.md) | Flujos, 18 casos de uso, 8 escenarios, 23 reglas y prioridades (aprobado) |
-| [DOC-QP-014 — Diseño de arquitectura](docs/04_diseno/DOC-QP-014_diseno_de_arquitectura.md) | Arquitectura modular, comunicación HTTP, persistencia y diagramas (en revisión) |
+| [DOC-QP-014 — Diseño de arquitectura](docs/04_diseno/DOC-QP-014_diseno_de_arquitectura.md) | Arquitectura modular, comunicación HTTP, persistencia y diagramas (aprobado) |
+| [DOC-QP-015 — Diseño de base de datos](docs/04_diseno/DOC-QP-015_diseno_de_base_de_datos.md) | Diccionario de 62 tablas, claves y MER por dominios (en revisión) |
 | [ROADMAP_QUALITYPRINT.md](ROADMAP_QUALITYPRINT.md) | Hoja de ruta detallada con casillas de avance |
 | [ETAPA_1_CHECKLIST.md](ETAPA_1_CHECKLIST.md) | Evidencias de la etapa inicial |
 | [docs/README.md](docs/README.md) | Índice de la documentación |
@@ -99,6 +100,7 @@ docs/
   04_diseno/
     README.md
     DOC-QP-014_diseno_de_arquitectura.md
+    DOC-QP-015_diseno_de_base_de_datos.md
 ```
 
 Las carpetas de las siguientes etapas están preparadas; sus documentos se elaborarán progresivamente.
