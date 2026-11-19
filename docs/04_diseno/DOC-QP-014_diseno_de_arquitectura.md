@@ -133,7 +133,7 @@ Las rutas son un contrato orientativo de diseño; el catálogo completo se defin
 1. El usuario diligencia un formulario; el navegador envía POST con token CSRF y datos permitidos.
 2. Flask valida sesión, token, permiso base y formato de entrada; no confía en el rol ni en el identificador de usuario aportado por el cliente.
 3. El servicio carga la información vigente y verifica alcance, separación de funciones, versión del registro y reglas aplicables.
-4. Dentro de una transacción, persiste el cambio y su auditoría; si alguna validación falla, realiza rollback.
+4. Dentro de una transacción, persiste el cambio y su auditoría; si alguna validación falla, realiza rollback. Los eventos de seguridad denegados se registran separadamente del cambio de negocio rechazado; no incluyen secretos.
 5. Flask devuelve errores específicos de validación sin datos sensibles o redirige al detalle por GET (patrón POST/Redirect/GET).
 6. El navegador muestra el resultado e identificador. Una operación repetida se controla en el servidor; la redirección por sí sola no garantiza que no haya duplicados.
 
@@ -203,11 +203,11 @@ No se fijan todavía los nombres de tablas, columnas ni claves concretas. Esto s
 
 ```mermaid
 flowchart TD
- U["Usuarios: seis roles lógicos"] --> B["Navegador<br/>HTML · CSS · JS"]
- B <-->|"HTTP(S): vistas, formularios y JSON"| R["Presentación Flask<br/>Rutas y Jinja2"]
- R --> S["Seguridad<br/>Identidad y permisos"]
- S --> N["Servicios Python<br/>Reglas de negocio"]
- N --> P["Persistencia SQLAlchemy<br/>Modelos y repositorios"]
+ U["Usuarios: seis roles lógicos"] --> B["Navegador — HTML · CSS · JS"]
+ B <-->|"HTTP(S): vistas, formularios y JSON"| R["Presentación Flask — Rutas y Jinja2"]
+ R --> S["Seguridad — Identidad y permisos"]
+ S --> N["Servicios Python — Reglas de negocio"]
+ N --> P["Persistencia SQLAlchemy — Modelos y repositorios"]
  P <-->|"Transacciones SQL"| DB[("SQLite privado")]
  N --> E["Almacenamiento privado de evidencias"]
  O["Administración técnica"] --> C["Comandos de respaldo y recuperación"]
