@@ -1,7 +1,7 @@
 # ROADMAP — QUALITYPRINT
 ## Sistema de Gestión de Calidad
 
-**Versión:** 1.24  
+**Versión:** 1.25  
 **Fecha:** 19/11/2026  
 **Tipo de proyecto:** Académico y de portafolio  
 **Empresa:** QualityPrint (ficticia)  
@@ -11,7 +11,7 @@
 - [x] Etapa 1. Inicio y organización del proyecto.
 - [x] Etapa 2. Documentación de la empresa y del SGC.
 - [x] Etapa 3. Análisis de requisitos del software.
-- [ ] Etapa 4. Diseño del software y base de datos.
+- [x] Etapa 4. Diseño del software y base de datos.
 - [ ] Etapa 5. Preparación del entorno de desarrollo.
 - [ ] Etapa 6. Desarrollo de la aplicación.
 - [ ] Etapa 7. Pruebas y control de calidad.
@@ -256,16 +256,18 @@
 
 ## 4.3. Diseño de interfaz
 
-**Documento en revisión:** [DOC-QP-016 — Diseño de interfaz](docs/04_diseno/DOC-QP-016_diseno_de_interfaz.md) y [prototipo HTML](docs/04_diseno/prototipo_interfaz.html). Las actividades 4.3.1–4.3.9 y el cierre de la etapa 4 permanecen pendientes de aprobación.
-- [ ] 4.3.1. Definir identidad visual.
-- [ ] 4.3.2. Diseñar el menú de navegación.
-- [ ] 4.3.3. Diseñar el dashboard.
-- [ ] 4.3.4. Diseñar el módulo de pedidos.
-- [ ] 4.3.5. Diseñar el módulo de producción.
-- [ ] 4.3.6. Diseñar el módulo de inspecciones.
-- [ ] 4.3.7. Diseñar el módulo de no conformidades.
-- [ ] 4.3.8. Diseñar formularios, tablas y filtros.
-- [ ] 4.3.9. Revisar la experiencia de usuario.
+**Documento aprobado:** [DOC-QP-016 — Diseño de interfaz](docs/04_diseno/DOC-QP-016_diseno_de_interfaz.md), con [prototipo HTML](docs/04_diseno/prototipo_interfaz.html).
+- [x] 4.3.1. Definir identidad visual.
+- [x] 4.3.2. Diseñar el menú de navegación.
+- [x] 4.3.3. Diseñar el dashboard.
+- [x] 4.3.4. Diseñar el módulo de pedidos.
+- [x] 4.3.5. Diseñar el módulo de producción.
+- [x] 4.3.6. Diseñar el módulo de inspecciones.
+- [x] 4.3.7. Diseñar el módulo de no conformidades.
+- [x] 4.3.8. Diseñar formularios, tablas y filtros.
+- [x] 4.3.9. Revisar la experiencia de usuario.
+
+**Etapa 4 completada: 20/20.** Diseño aprobado; validación visual y funcional de la implementación pendiente en etapas 6 y 7.
 
 **Entregables de la etapa:**
 - Diagrama de arquitectura.
@@ -278,10 +280,12 @@
 # ETAPA 5. PREPARACIÓN DEL ENTORNO DE DESARROLLO
 
 ## 5.1. Herramientas
+
+**Documento en revisión:** [DOC-QP-017 — Preparación de herramientas de desarrollo](docs/05_entorno/DOC-QP-017_preparacion_de_herramientas.md). Verificación local pendiente.
 - [ ] 5.1.1. Instalar Visual Studio Code.
 - [ ] 5.1.2. Instalar Python.
 - [ ] 5.1.3. Instalar Git.
-- [ ] 5.1.4. Configurar la cuenta y repositorio de GitHub.
+- [x] 5.1.4. Configurar la cuenta y repositorio de GitHub. (Repositorio remoto reutilizado; conexión local pendiente en 5.2.8.)
 - [ ] 5.1.5. Preparar el navegador de pruebas.
 
 ## 5.2. Configuración técnica
